@@ -1,0 +1,26 @@
+name = Wehrul Kerman
+gender = Male
+type = Applicant
+trait = Scientist
+brave = 0.948261619
+dumb = 0.759916544
+badS = False
+veteran = False
+tour = False
+state = Available
+inactive = False
+inactiveTimeEnd = 0
+gExperienced = 0
+outDueToG = False
+ToD = 723388.29642387177
+idx = -1
+extraXP = 0
+hero = False
+CAREER_LOG
+{
+	flight = 0
+}
+FLIGHT_LOG
+{
+	flight = 0
+}

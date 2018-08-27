@@ -1,0 +1,31 @@
+name = Ferry Kerman
+gender = Male
+type = Crew
+trait = Engineer
+brave = 0.389713585
+dumb = 0.262568384
+badS = False
+veteran = False
+tour = False
+state = Available
+inactive = False
+inactiveTimeEnd = 0
+gExperienced = 0
+outDueToG = False
+ToD = 651875.93341017538
+idx = 0
+extraXP = 0
+hero = False
+CAREER_LOG
+{
+	flight = 1
+	0 = Land,Kerbin
+	0 = Flight,Kerbin
+	0 = Die
+}
+FLIGHT_LOG
+{
+	flight = 1
+	1 = Flight,Kerbin
+	1 = Suborbit,Kerbin
+}

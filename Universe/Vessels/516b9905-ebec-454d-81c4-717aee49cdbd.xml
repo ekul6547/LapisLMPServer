@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LMPConfigNodeToXML>
+  <Parameter name="pid">516b9905ebec454d81c4717aee49cdbd</Parameter>
+  <Parameter name="persistentId">3927744617</Parameter>
+  <Parameter name="name">Launch 01 Finish</Parameter>
+  <Parameter name="type">Flag</Parameter>
+  <Parameter name="sit">LANDED</Parameter>
+  <Parameter name="landed">True</Parameter>
+  <Parameter name="skipGroundPositioning">True</Parameter>
+  <Parameter name="vesselSpawning">False</Parameter>
+  <Parameter name="launchedFrom">
+  </Parameter>
+  <Parameter name="landedAt">KSC</Parameter>
+  <Parameter name="displaylandedAt">KSC</Parameter>
+  <Parameter name="splashed">False</Parameter>
+  <Parameter name="met">79135330.8467867</Parameter>
+  <Parameter name="lct">474903.195668729</Parameter>
+  <Parameter name="lastUT">79607229.7270042</Parameter>
+  <Parameter name="distanceTraveled">12.726824180828697</Parameter>
+  <Parameter name="root">0</Parameter>
+  <Parameter name="lat">-0.133493135012591</Parameter>
+  <Parameter name="lon">-74.5731655608342</Parameter>
+  <Parameter name="alt">65.237228452228</Parameter>
+  <Parameter name="hgt">0.3808514</Parameter>
+  <Parameter name="nrm">0.0106452405452728,0.997857868671417,-0.064548671245575</Parameter>
+  <Parameter name="rot">0.2524312,0.6801087,-0.6846793,-0.07032015</Parameter>
+  <Parameter name="CoM">0,0,0</Parameter>
+  <Parameter name="stg">0</Parameter>
+  <Parameter name="prst">False</Parameter>
+  <Parameter name="ref">0</Parameter>
+  <Parameter name="ctrl">False</Parameter>
+  <Parameter name="PQSMin">2</Parameter>
+  <Parameter name="PQSMax">10</Parameter>
+  <Parameter name="cPch">0.2</Parameter>
+  <Parameter name="cHdg">0.3</Parameter>
+  <Parameter name="cMod">0</Parameter>
+  <Node name="ORBIT">
+    <Parameter name="SMA">300815.024780337</Parameter>
+    <Parameter name="ECC">0.994798719144572</Parameter>
+    <Parameter name="INC">0.133494935688784</Parameter>
+    <Parameter name="LPE">90</Parameter>
+    <Parameter name="LAN">167.083876854619</Parameter>
+    <Parameter name="MNA">-3.11771575255935</Parameter>
+    <Parameter name="EPH">79610216.5024591</Parameter>
+    <Parameter name="REF">1</Parameter>
+  </Node>
+  <Node name="PART">
+    <Parameter name="name">flag</Parameter>
+    <Parameter name="cid">4293220732</Parameter>
+    <Parameter name="uid">896506908</Parameter>
+    <Parameter name="mid">895666316</Parameter>
+    <Parameter name="persistentId">2921253399</Parameter>
+    <Parameter name="launchID">2</Parameter>
+    <Parameter name="parent">0</Parameter>
+    <Parameter name="position">0,0,0</Parameter>
+    <Parameter name="rotation">0,0,0,1</Parameter>
+    <Parameter name="mirror">1,1,1</Parameter>
+    <Parameter name="symMethod">Radial</Parameter>
+    <Parameter name="istg">-1</Parameter>
+    <Parameter name="resPri">0</Parameter>
+    <Parameter name="dstg">0</Parameter>
+    <Parameter name="sqor">-1</Parameter>
+    <Parameter name="sepI">-1</Parameter>
+    <Parameter name="sidx">-1</Parameter>
+    <Parameter name="attm">0</Parameter>
+    <Parameter name="srfN">, -1</Parameter>
+    <Parameter name="mass">0.00999999978</Parameter>
+    <Parameter name="shielded">False</Parameter>
+    <Parameter name="temp">310.77473818198001</Parameter>
+    <Parameter name="tempExt">310.78972486144369</Parameter>
+    <Parameter name="tempExtUnexp">310.7897151336968</Parameter>
+    <Parameter name="expt">0.5</Parameter>
+    <Parameter name="state">0</Parameter>
+    <Parameter name="PreFailState">0</Parameter>
+    <Parameter name="attached">True</Parameter>
+    <Parameter name="autostrutMode">Off</Parameter>
+    <Parameter name="rigidAttachment">False</Parameter>
+    <Parameter name="flag">Squad/Flags/default</Parameter>
+    <Parameter name="rTrf">flag (Launch 01 Finish)</Parameter>
+    <Parameter name="modCost">0</Parameter>
+    <Node name="EVENTS" />
+    <Node name="ACTIONS" />
+    <Node name="PARTDATA" />
+    <Node name="MODULE">
+      <Parameter name="name">FlagSite</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="placedBy">Shepeny Kerman</Parameter>
+      <Parameter name="PlaqueText">
+      </Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Parameter name="state">Placed</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS" />
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">FlagDecal</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="flagDisplayed">True</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS" />
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+  </Node>
+  <Node name="ACTIONGROUPS">
+    <Parameter name="Stage">False, 0</Parameter>
+    <Parameter name="Gear">False, 0</Parameter>
+    <Parameter name="Light">False, 0</Parameter>
+    <Parameter name="RCS">False, 0</Parameter>
+    <Parameter name="SAS">False, 0</Parameter>
+    <Parameter name="Brakes">False, 0</Parameter>
+    <Parameter name="Abort">False, 0</Parameter>
+    <Parameter name="Custom01">False, 0</Parameter>
+    <Parameter name="Custom02">False, 0</Parameter>
+    <Parameter name="Custom03">False, 0</Parameter>
+    <Parameter name="Custom04">False, 0</Parameter>
+    <Parameter name="Custom05">False, 0</Parameter>
+    <Parameter name="Custom06">False, 0</Parameter>
+    <Parameter name="Custom07">False, 0</Parameter>
+    <Parameter name="Custom08">False, 0</Parameter>
+    <Parameter name="Custom09">False, 0</Parameter>
+    <Parameter name="Custom10">False, 0</Parameter>
+  </Node>
+  <Node name="DISCOVERY">
+    <Parameter name="state">-1</Parameter>
+    <Parameter name="lastObservedTime">0</Parameter>
+    <Parameter name="lifetime">Infinity</Parameter>
+    <Parameter name="refTime">Infinity</Parameter>
+    <Parameter name="size">2</Parameter>
+  </Node>
+  <Node name="FLIGHTPLAN" />
+  <Node name="CTRLSTATE">
+    <Parameter name="pitch">0</Parameter>
+    <Parameter name="yaw">0</Parameter>
+    <Parameter name="roll">0</Parameter>
+    <Parameter name="trimPitch">0</Parameter>
+    <Parameter name="trimYaw">0</Parameter>
+    <Parameter name="trimRoll">0</Parameter>
+    <Parameter name="mainThrottle">0</Parameter>
+  </Node>
+  <Node name="VESSELMODULES">
+    <Node name="FlightIntegrator" />
+  </Node>
+</LMPConfigNodeToXML>

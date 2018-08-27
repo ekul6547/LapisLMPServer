@@ -1,0 +1,30 @@
+name = Trable Kerman
+gender = Female
+type = Crew
+trait = Scientist
+brave = 0.856706381
+dumb = 0.524668872
+badS = False
+veteran = False
+tour = False
+state = Available
+inactive = False
+inactiveTimeEnd = 0
+gExperienced = 0
+outDueToG = False
+ToD = 677010.76193900849
+idx = -1
+extraXP = 0
+suit = Default
+hero = False
+CAREER_LOG
+{
+	flight = 0
+}
+FLIGHT_LOG
+{
+	flight = 0
+	0 = Flight,Kerbin
+	0 = Land,Kerbin
+	0 = ExitVessel,Kerbin
+}

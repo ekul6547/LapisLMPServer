@@ -1,0 +1,43 @@
+name = Dilwell Kerman
+gender = Male
+type = Crew
+trait = Scientist
+brave = 0.437987477
+dumb = 0.102961615
+badS = False
+veteran = False
+tour = False
+state = Available
+inactive = False
+inactiveTimeEnd = 0
+gExperienced = 0
+outDueToG = False
+ToD = 2000.02
+idx = 0
+extraXP = 0
+hero = False
+CAREER_LOG
+{
+	flight = 4
+	0 = Land,Kerbin
+	0 = Flight,Kerbin
+	0 = PlantFlag,Kerbin
+	0 = Spawn
+	0 = Recover
+	0 = Recover
+	0 = Recover
+	2 = Land,Kerbin
+	2 = Flight,Kerbin
+	2 = Die
+	2 = Spawn
+	2 = Land,Kerbin
+	2 = Flight,Kerbin
+	2 = Die
+	3 = Flight,Kerbin
+	3 = Suborbit,Kerbin
+	3 = Die
+}
+FLIGHT_LOG
+{
+	flight = 4
+}

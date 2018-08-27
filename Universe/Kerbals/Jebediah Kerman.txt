@@ -1,0 +1,76 @@
+name = Jebediah Kerman
+gender = Male
+type = Crew
+trait = Pilot
+brave = 0.5
+dumb = 0.5
+badS = True
+veteran = True
+tour = False
+state = Dead
+inactive = False
+inactiveTimeEnd = 0
+gExperienced = 0
+outDueToG = False
+ToD = 476796.28042801394
+idx = -1
+extraXP = 0
+hero = False
+EVACHUTE
+{
+	name = ModuleEvaChute
+	isEnabled = True
+	chuteYawRateAtMaxSpeed = 1
+	chuteMaxSpeedForYawRate = 50
+	chuteYawRateAtMinSpeed = 1
+	chuteMinSpeedForYawRate = 1
+	chuteRollRate = 1
+	chutePitchRate = 1
+	chuteDefaultForwardPitch = 9
+	semiDeployedChuteForwardPitch = 25
+	chutePitchRateDivisorWhenTurning = 1
+	chuteRollRateDivisorWhenPitching = 1
+	chuteYawRateDivisorWhenPitching = 1
+	persistentState = STOWED
+	animTime = 0
+	minAirPressureToOpen = 0.0399999991
+	deployAltitude = 1000
+	spreadAngle = 7
+	automateSafeDeploy = 0
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		DeployAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		CutAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+CAREER_LOG
+{
+	flight = 2
+	0 = Land,Kerbin
+	0 = Flight,Kerbin
+	0 = ExitVessel,Kerbin
+	0 = Recover
+	1 = Land,Kerbin
+	1 = Flight,Kerbin
+	1 = ExitVessel,Kerbin
+	1 = Die
+}
+FLIGHT_LOG
+{
+	flight = 2
+}

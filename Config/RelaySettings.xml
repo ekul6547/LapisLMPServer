@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-16"?>
+<RelaySettingsDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!--Relay system mode. Dictionary uses more RAM but it's faster. Database use disk space instead but it's slower. Values: Dictionary, Database-->
+  <RelaySystemMode>Dictionary</RelaySystemMode>
+  <!--Interval for saving POSITION updates IN THE SERVER so they are later sent to the OTHER players in the past. Lower number => smoother movement but as you're saving more position updates, then more memory will be required-->
+  <RelaySaveIntervalMs>3000</RelaySaveIntervalMs>
+</RelaySettingsDefinition>

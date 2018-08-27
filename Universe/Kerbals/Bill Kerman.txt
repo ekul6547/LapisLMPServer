@@ -1,0 +1,26 @@
+name = Bill Kerman
+gender = Male
+type = Crew
+trait = Engineer
+brave = 0.5
+dumb = 0.800000012
+badS = False
+veteran = True
+tour = False
+state = Dead
+inactive = False
+inactiveTimeEnd = 0
+gExperienced = 0
+outDueToG = False
+ToD = 476796.28042801394
+idx = -1
+extraXP = 0
+hero = False
+CAREER_LOG
+{
+	flight = 0
+}
+FLIGHT_LOG
+{
+	flight = 0
+}

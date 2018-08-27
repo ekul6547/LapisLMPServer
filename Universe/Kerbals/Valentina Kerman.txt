@@ -1,0 +1,26 @@
+name = Valentina Kerman
+gender = Female
+type = Crew
+trait = Pilot
+brave = 0.550000012
+dumb = 0.400000006
+badS = True
+veteran = True
+tour = False
+state = Dead
+inactive = False
+inactiveTimeEnd = 0
+gExperienced = 0
+outDueToG = False
+ToD = 476796.28042801394
+idx = -1
+extraXP = 0
+hero = False
+CAREER_LOG
+{
+	flight = 0
+}
+FLIGHT_LOG
+{
+	flight = 0
+}
