@@ -1,0 +1,769 @@
+[10:30:52][Warning] : Remember! Quit the server by using Control+C so the vessels are saved to the hard drive!
+[10:30:52][Info] : Luna Server version: 0.11.47 (/servers/lmp/LapisLMPServer)
+[10:30:52][Debug] : Loading universe... 
+[10:30:52][Debug] : Loading groups...
+[10:30:52][Debug] : Loading settings...
+[10:30:53][Debug] : Loading plugins...
+[10:30:53][Info] : Starting 'Lapis's Luna Server' on Port 1025... 
+[10:30:58][Debug] : Performing backups...
+[10:30:58][Info] : Registering with master servers...
+[10:30:58][Info] : All systems up and running. Поехали!
+[10:31:28][Debug] : Performing backups...
+[10:31:58][Debug] : Performing backups...
+[10:32:28][Debug] : Performing backups...
+[10:32:58][Debug] : Performing backups...
+[10:33:28][Debug] : Performing backups...
+[10:33:58][Debug] : Performing backups...
+[10:34:28][Debug] : Performing backups...
+[10:34:58][Debug] : Performing backups...
+[10:35:28][Debug] : Performing backups...
+[10:35:58][Debug] : Performing backups...
+[10:36:28][Debug] : Performing backups...
+[10:36:58][Debug] : Performing backups...
+[10:37:28][Debug] : Performing backups...
+[10:37:58][Debug] : Performing backups...
+[10:38:05][Debug] : Lidgren: ERRORMESSAGE -- Failed to send packet: System.Net.Sockets.SocketException (0x80004005): Invalid arguments
+  at System.Net.Sockets.Socket.SendTo_nochecks (System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags flags, System.Net.EndPoint remote_end) [0x00045] in <bd46d4d4f7964dfa9beea098499ab597>:0 
+  at System.Net.Sockets.Socket.SendTo (System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags, System.Net.EndPoint remoteEP) [0x00028] in <bd46d4d4f7964dfa9beea098499ab597>:0 
+  at Lidgren.Network.NetPeer.ActuallySendPacket (System.Byte[] data, System.Int32 numBytes, System.Net.IPEndPoint target, System.Boolean& connectionReset) [0x0003e] in <0a464235fd9f43c4ad33aa8d21e92c43>:0 
+[10:38:06][Info] : New client Connection from 90.253.122.125:49367
+[10:38:06][Debug] : Online Players: 0, connected: 1
+[10:38:08][Info] : Client ekulstorm (1eb683e15f0db44c96c75f7b5761af04d7b9ec41) handshake successfully, Version: 0.11.47
+[10:38:08][Debug] : Online Players: 1, connected: 1
+[10:38:09][Debug] : Sending ekulstorm 8 vessels
+[10:38:09][Debug] : Sending ekulstorm 23 kerbals...
+[10:38:09][Debug] : Sending ekulstorm 1 possible subspaces
+[10:38:19][Debug] : Sending ekulstorm 1 vessels
+[10:38:28][Debug] : Performing backups...
+[10:38:29][Debug] : Sending ekulstorm 1 vessels
+[10:38:39][Debug] : Sending ekulstorm 1 vessels
+[10:38:58][Debug] : Performing backups...
+[10:39:24][Debug] : Sending 2 craft folders to: ekulstorm
+[10:39:24][Debug] : ekulstorm synced with subspace '168' created by Server
+[10:39:28][Debug] : ekulstorm acquired lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:39:28][Debug] : ekulstorm acquired lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:39:28][Debug] : Performing backups...
+[10:39:34][Debug] : Removing vessel d9c282ad-c79e-49e1-831a-1d0c86ff4423 from ekulstorm
+[10:39:37][Debug] : Removing vessel 6d6eb926-eb6f-4bdb-83bc-f7c50475c6da from ekulstorm
+[10:39:38][Debug] : ekulstorm released lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:39:38][Debug] : ekulstorm released lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:39:40][Debug] : Saving 8 scenario modules from ekulstorm
+[10:39:42][Debug] : ekulstorm acquired lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:39:42][Debug] : ekulstorm acquired lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:39:53][Debug] : Removing vessel dfc1ad07-daa6-44f0-8301-4ce5b59d1edb from ekulstorm
+[10:39:58][Debug] : Performing backups...
+[10:40:06][Debug] : ekulstorm released lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:40:06][Debug] : ekulstorm released lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:40:10][Debug] : Saving 4 scenario modules from ekulstorm
+[10:40:13][Debug] : ekulstorm acquired lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:40:13][Debug] : ekulstorm acquired lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:40:20][Debug] : ekulstorm released lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:40:20][Debug] : ekulstorm released lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:40:28][Debug] : ekulstorm acquired lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:40:28][Debug] : ekulstorm acquired lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:40:28][Debug] : Performing backups...
+[10:40:30][Debug] : ekulstorm released lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:40:30][Debug] : ekulstorm released lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:40:35][Debug] : ekulstorm acquired lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:40:35][Debug] : ekulstorm acquired lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:40:40][Debug] : Saving 2 scenario modules from ekulstorm
+[10:40:58][Debug] : Performing backups...
+[10:41:10][Debug] : Saving 2 scenario modules from ekulstorm
+[10:41:19][Debug] : Science received: 145.6437 Reason: RnDTechResearch
+[10:41:19][Debug] : Technology unlocked: advElectrics
+[10:41:28][Debug] : Performing backups...
+[10:41:40][Debug] : Saving 2 scenario modules from ekulstorm
+[10:41:46][Debug] : ekulstorm released lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:41:46][Debug] : ekulstorm released lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:41:52][Debug] : ekulstorm acquired lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:41:53][Debug] : ekulstorm acquired lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:41:58][Debug] : Performing backups...
+[10:42:15][Debug] : ekulstorm acquired lock Kerbal - Doodney Kerman
+[10:42:15][Debug] : Saving kerbal Doodney Kerman from ekulstorm
+[10:42:22][Debug] : Saving kerbal Doodney Kerman from ekulstorm
+[10:42:22][Debug] : ekulstorm released lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:42:22][Debug] : ekulstorm released lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:42:27][Debug] : ekulstorm acquired lock Control - 1c5709fb-c5f6-4888-8d25-b427987e3649
+[10:42:27][Debug] : ekulstorm acquired lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:42:27][Debug] : ekulstorm acquired lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:42:28][Debug] : Performing backups...
+[10:42:28][Debug] : ekulstorm acquired lock UnloadedUpdate - 1c5709fb-c5f6-4888-8d25-b427987e3649
+[10:42:28][Debug] : ekulstorm acquired lock Update - 1c5709fb-c5f6-4888-8d25-b427987e3649
+[10:42:28][Debug] : ekulstorm acquired lock Update - 516b9905-ebec-454d-81c4-717aee49cdbd
+[10:42:30][Debug] : Saving vessel 1c5709fb-c5f6-4888-8d25-b427987e3649 from ekulstorm. Bytes: 217479
+[10:42:31][Debug] : ekulstorm acquired lock UnloadedUpdate - 516b9905-ebec-454d-81c4-717aee49cdbd
+[10:42:40][Debug] : Saving 2 scenario modules from ekulstorm
+[10:42:58][Debug] : Performing backups...
+[10:42:58][Debug] : ekulstorm released lock Update - 516b9905-ebec-454d-81c4-717aee49cdbd
+[10:43:10][Debug] : Saving 2 scenario modules from ekulstorm
+[10:43:23][Debug] : ekulstorm acquired lock Update - 13bc20c0-fce9-4494-a209-e6378fd4175e
+[10:43:23][Debug] : ekulstorm acquired lock Update - 26026347-a00f-4737-a5ad-8064de2546ba
+[10:43:23][Debug] : ekulstorm acquired lock Update - 06743b6b-5b99-4028-a879-92a250069cb6
+[10:43:23][Debug] : ekulstorm acquired lock Update - 52c3af10-dd8a-4dcf-99ad-e211e1237d0a
+[10:43:23][Debug] : ekulstorm acquired lock Update - 2126952a-cdee-4c16-b6f5-301457d48c38
+[10:43:23][Debug] : ekulstorm acquired lock Update - 382f2780-5ed7-4a50-89ed-26d28793def2
+[10:43:23][Debug] : ekulstorm acquired lock Update - cf44a926-9a8b-4c91-9edc-1b1a35bc65af
+[10:43:23][Debug] : ekulstorm acquired lock Update - 7bf0dcd3-2f78-4b3c-ac8d-d12635995530
+[10:43:26][Debug] : ekulstorm acquired lock Update - 2b1fd710-e8f3-4ea7-8732-edfbb7a6161e
+[10:43:26][Debug] : ekulstorm acquired lock UnloadedUpdate - 2126952a-cdee-4c16-b6f5-301457d48c38
+[10:43:26][Debug] : ekulstorm acquired lock UnloadedUpdate - cf44a926-9a8b-4c91-9edc-1b1a35bc65af
+[10:43:26][Debug] : ekulstorm acquired lock UnloadedUpdate - 382f2780-5ed7-4a50-89ed-26d28793def2
+[10:43:26][Debug] : ekulstorm acquired lock UnloadedUpdate - 52c3af10-dd8a-4dcf-99ad-e211e1237d0a
+[10:43:26][Debug] : ekulstorm acquired lock UnloadedUpdate - 26026347-a00f-4737-a5ad-8064de2546ba
+[10:43:26][Debug] : ekulstorm acquired lock UnloadedUpdate - 7bf0dcd3-2f78-4b3c-ac8d-d12635995530
+[10:43:26][Debug] : ekulstorm acquired lock UnloadedUpdate - 13bc20c0-fce9-4494-a209-e6378fd4175e
+[10:43:26][Debug] : ekulstorm acquired lock UnloadedUpdate - 06743b6b-5b99-4028-a879-92a250069cb6
+[10:43:26][Debug] : Saving vessel 2126952a-cdee-4c16-b6f5-301457d48c38 from ekulstorm. Bytes: 3929
+[10:43:26][Debug] : Saving vessel 382f2780-5ed7-4a50-89ed-26d28793def2 from ekulstorm. Bytes: 7960
+[10:43:26][Debug] : Saving vessel 52c3af10-dd8a-4dcf-99ad-e211e1237d0a from ekulstorm. Bytes: 7960
+[10:43:26][Debug] : Saving vessel cf44a926-9a8b-4c91-9edc-1b1a35bc65af from ekulstorm. Bytes: 7941
+[10:43:26][Debug] : Saving vessel 26026347-a00f-4737-a5ad-8064de2546ba from ekulstorm. Bytes: 7998
+[10:43:26][Debug] : Saving vessel 7bf0dcd3-2f78-4b3c-ac8d-d12635995530 from ekulstorm. Bytes: 7943
+[10:43:26][Debug] : Saving vessel 13bc20c0-fce9-4494-a209-e6378fd4175e from ekulstorm. Bytes: 7953
+[10:43:26][Debug] : Saving vessel 06743b6b-5b99-4028-a879-92a250069cb6 from ekulstorm. Bytes: 7987
+[10:43:28][Debug] : Performing backups...
+[10:43:29][Debug] : ekulstorm acquired lock UnloadedUpdate - 2b1fd710-e8f3-4ea7-8732-edfbb7a6161e
+[10:43:29][Debug] : Saving vessel 2b1fd710-e8f3-4ea7-8732-edfbb7a6161e from ekulstorm. Bytes: 2318
+[10:43:40][Debug] : Saving 2 scenario modules from ekulstorm
+[10:43:52][Info] : Removing debris vessel: 52c3af10-dd8a-4dcf-99ad-e211e1237d0a
+[10:43:52][Info] : Removing debris vessel: 13bc20c0-fce9-4494-a209-e6378fd4175e
+[10:43:52][Info] : Removing debris vessel: 382f2780-5ed7-4a50-89ed-26d28793def2
+[10:43:52][Info] : Removing debris vessel: cf44a926-9a8b-4c91-9edc-1b1a35bc65af
+[10:43:52][Info] : Removing debris vessel: 7bf0dcd3-2f78-4b3c-ac8d-d12635995530
+[10:43:52][Info] : Removing debris vessel: 2126952a-cdee-4c16-b6f5-301457d48c38
+[10:43:52][Info] : Removing debris vessel: 06743b6b-5b99-4028-a879-92a250069cb6
+[10:43:52][Info] : Removing debris vessel: 26026347-a00f-4737-a5ad-8064de2546ba
+[10:43:52][Info] : Removing debris vessel: 2b1fd710-e8f3-4ea7-8732-edfbb7a6161e
+[10:43:52][Info] : Removed 9 debris
+[10:43:58][Debug] : Performing backups...
+[10:44:10][Debug] : Saving 2 scenario modules from ekulstorm
+[10:44:28][Debug] : Performing backups...
+[10:44:35][Debug] : ekulstorm acquired lock Update - 75a221cf-4282-4084-aebe-5399049b5098
+[10:44:38][Debug] : ekulstorm acquired lock UnloadedUpdate - 75a221cf-4282-4084-aebe-5399049b5098
+[10:44:39][Debug] : Saving vessel 75a221cf-4282-4084-aebe-5399049b5098 from ekulstorm. Bytes: 30194
+[10:44:40][Debug] : Saving 2 scenario modules from ekulstorm
+[10:44:52][Info] : Removing debris vessel: 75a221cf-4282-4084-aebe-5399049b5098
+[10:44:52][Info] : Removed 1 debris
+[10:44:58][Debug] : Performing backups...
+[10:45:10][Debug] : Saving 2 scenario modules from ekulstorm
+[10:45:12][Debug] : ekulstorm is warping
+[10:45:23][Debug] : ekulstorm created the new subspace '169'
+[10:45:23][Debug] : Removing abandoned subspace '168'
+[10:45:28][Debug] : Performing backups...
+[10:45:33][Debug] : ekulstorm acquired lock Update - 02d8e8fb-358a-401a-9aa8-d58f18bf2a49
+[10:45:33][Debug] : ekulstorm acquired lock Update - 0dd1f096-2522-4bbc-949b-73a523004aec
+[10:45:36][Debug] : ekulstorm acquired lock UnloadedUpdate - 0dd1f096-2522-4bbc-949b-73a523004aec
+[10:45:36][Debug] : ekulstorm acquired lock UnloadedUpdate - 02d8e8fb-358a-401a-9aa8-d58f18bf2a49
+[10:45:36][Debug] : Saving vessel 0dd1f096-2522-4bbc-949b-73a523004aec from ekulstorm. Bytes: 28621
+[10:45:36][Debug] : Saving vessel 02d8e8fb-358a-401a-9aa8-d58f18bf2a49 from ekulstorm. Bytes: 15533
+[10:45:40][Debug] : Saving 2 scenario modules from ekulstorm
+[10:45:52][Info] : Removing debris vessel: 0dd1f096-2522-4bbc-949b-73a523004aec
+[10:45:52][Info] : Removing debris vessel: 02d8e8fb-358a-401a-9aa8-d58f18bf2a49
+[10:45:52][Info] : Removed 2 debris
+[10:45:58][Debug] : Performing backups...
+[10:46:10][Debug] : Saving 2 scenario modules from ekulstorm
+[10:46:28][Debug] : Performing backups...
+[10:46:40][Debug] : Saving 2 scenario modules from ekulstorm
+[10:46:58][Debug] : Performing backups...
+[10:47:10][Debug] : Saving 2 scenario modules from ekulstorm
+[10:47:18][Debug] : ekulstorm is warping
+[10:47:28][Debug] : Performing backups...
+[10:47:40][Debug] : Saving 2 scenario modules from ekulstorm
+[10:47:44][Debug] : ekulstorm created the new subspace '170'
+[10:47:44][Debug] : Removing abandoned subspace '169'
+[10:47:46][Debug] : ekulstorm is warping
+[10:47:48][Debug] : ekulstorm created the new subspace '171'
+[10:47:48][Debug] : Removing abandoned subspace '170'
+[10:47:58][Debug] : Performing backups...
+[10:48:09][Debug] : ekulstorm is warping
+[10:48:10][Debug] : Saving 2 scenario modules from ekulstorm
+[10:48:15][Debug] : ekulstorm acquired lock Update - 3958ef20-0509-4e53-8fae-27d6e3ea42f9
+[10:48:18][Debug] : ekulstorm acquired lock UnloadedUpdate - 3958ef20-0509-4e53-8fae-27d6e3ea42f9
+[10:48:19][Debug] : Saving vessel 3958ef20-0509-4e53-8fae-27d6e3ea42f9 from ekulstorm. Bytes: 19207
+[10:48:24][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:48:28][Debug] : Performing backups...
+[10:48:31][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:48:38][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:48:41][Debug] : Saving 2 scenario modules from ekulstorm
+[10:48:44][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:48:52][Info] : Removing debris vessel: 3958ef20-0509-4e53-8fae-27d6e3ea42f9
+[10:48:52][Info] : Removed 1 debris
+[10:48:58][Debug] : Performing backups...
+[10:49:11][Debug] : Saving 2 scenario modules from ekulstorm
+[10:49:16][Debug] : Saving kerbal Doodney Kerman from ekulstorm
+[10:49:16][Debug] : Saving kerbal Doodney Kerman from ekulstorm
+[10:49:16][Debug] : ekulstorm released lock Update - 2126952a-cdee-4c16-b6f5-301457d48c38
+[10:49:16][Debug] : ekulstorm released lock Update - 52c3af10-dd8a-4dcf-99ad-e211e1237d0a
+[10:49:16][Debug] : ekulstorm released lock Update - 3958ef20-0509-4e53-8fae-27d6e3ea42f9
+[10:49:16][Debug] : ekulstorm released lock Update - 382f2780-5ed7-4a50-89ed-26d28793def2
+[10:49:16][Debug] : ekulstorm released lock Update - cf44a926-9a8b-4c91-9edc-1b1a35bc65af
+[10:49:16][Debug] : ekulstorm released lock Update - 2b1fd710-e8f3-4ea7-8732-edfbb7a6161e
+[10:49:16][Debug] : ekulstorm released lock Update - 75a221cf-4282-4084-aebe-5399049b5098
+[10:49:16][Debug] : ekulstorm released lock Update - 26026347-a00f-4737-a5ad-8064de2546ba
+[10:49:16][Debug] : ekulstorm released lock Update - 7bf0dcd3-2f78-4b3c-ac8d-d12635995530
+[10:49:16][Debug] : ekulstorm released lock Update - 13bc20c0-fce9-4494-a209-e6378fd4175e
+[10:49:16][Debug] : ekulstorm released lock Update - 1c5709fb-c5f6-4888-8d25-b427987e3649
+[10:49:16][Debug] : ekulstorm released lock Update - 0dd1f096-2522-4bbc-949b-73a523004aec
+[10:49:16][Debug] : ekulstorm released lock Update - 06743b6b-5b99-4028-a879-92a250069cb6
+[10:49:16][Debug] : ekulstorm released lock Update - 02d8e8fb-358a-401a-9aa8-d58f18bf2a49
+[10:49:16][Debug] : ekulstorm released lock UnloadedUpdate - 2126952a-cdee-4c16-b6f5-301457d48c38
+[10:49:16][Debug] : ekulstorm released lock UnloadedUpdate - 382f2780-5ed7-4a50-89ed-26d28793def2
+[10:49:16][Debug] : ekulstorm released lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:49:16][Debug] : ekulstorm released lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:49:16][Debug] : ekulstorm released lock UnloadedUpdate - 3958ef20-0509-4e53-8fae-27d6e3ea42f9
+[10:49:16][Debug] : ekulstorm released lock UnloadedUpdate - 52c3af10-dd8a-4dcf-99ad-e211e1237d0a
+[10:49:16][Debug] : ekulstorm released lock UnloadedUpdate - cf44a926-9a8b-4c91-9edc-1b1a35bc65af
+[10:49:16][Debug] : ekulstorm released lock UnloadedUpdate - 2b1fd710-e8f3-4ea7-8732-edfbb7a6161e
+[10:49:16][Debug] : ekulstorm released lock UnloadedUpdate - 1c5709fb-c5f6-4888-8d25-b427987e3649
+[10:49:16][Debug] : ekulstorm released lock UnloadedUpdate - 26026347-a00f-4737-a5ad-8064de2546ba
+[10:49:16][Debug] : ekulstorm released lock UnloadedUpdate - 75a221cf-4282-4084-aebe-5399049b5098
+[10:49:16][Debug] : ekulstorm released lock UnloadedUpdate - 7bf0dcd3-2f78-4b3c-ac8d-d12635995530
+[10:49:16][Debug] : ekulstorm released lock UnloadedUpdate - 13bc20c0-fce9-4494-a209-e6378fd4175e
+[10:49:16][Debug] : ekulstorm released lock UnloadedUpdate - 0dd1f096-2522-4bbc-949b-73a523004aec
+[10:49:16][Debug] : ekulstorm released lock UnloadedUpdate - 02d8e8fb-358a-401a-9aa8-d58f18bf2a49
+[10:49:16][Debug] : ekulstorm released lock UnloadedUpdate - 06743b6b-5b99-4028-a879-92a250069cb6
+[10:49:16][Debug] : ekulstorm released lock UnloadedUpdate - 516b9905-ebec-454d-81c4-717aee49cdbd
+[10:49:16][Debug] : ekulstorm released lock Control - 1c5709fb-c5f6-4888-8d25-b427987e3649
+[10:49:16][Debug] : ekulstorm released lock Kerbal - Doodney Kerman
+[10:49:16][Debug] : ekulstorm acquired lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:49:16][Debug] : ekulstorm acquired lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:49:17][Debug] : ekulstorm acquired lock Control - 0653c1a4-eba5-4864-b40e-d8dc3ac8967e
+[10:49:17][Debug] : ekulstorm acquired lock Kerbal - Doodney Kerman
+[10:49:17][Debug] : ekulstorm acquired lock UnloadedUpdate - 0653c1a4-eba5-4864-b40e-d8dc3ac8967e
+[10:49:17][Debug] : ekulstorm acquired lock Update - 0653c1a4-eba5-4864-b40e-d8dc3ac8967e
+[10:49:19][Debug] : Saving vessel 0653c1a4-eba5-4864-b40e-d8dc3ac8967e from ekulstorm. Bytes: 6883
+[10:49:19][Debug] : ekulstorm acquired lock Update - 1c5709fb-c5f6-4888-8d25-b427987e3649
+[10:49:22][Debug] : ekulstorm acquired lock UnloadedUpdate - 1c5709fb-c5f6-4888-8d25-b427987e3649
+[10:49:22][Debug] : Science experiment received: evaReport@KerbinSrfSplashedWater
+[10:49:24][Debug] : Science experiment received: surfaceSample@KerbinSrfSplashedWater
+[10:49:28][Debug] : Saving kerbal Doodney Kerman from ekulstorm
+[10:49:28][Debug] : Saving kerbal Doodney Kerman from ekulstorm
+[10:49:28][Debug] : ekulstorm released lock UnloadedUpdate - 0653c1a4-eba5-4864-b40e-d8dc3ac8967e
+[10:49:28][Debug] : ekulstorm released lock Control - 0653c1a4-eba5-4864-b40e-d8dc3ac8967e
+[10:49:28][Debug] : ekulstorm released lock Update - 0653c1a4-eba5-4864-b40e-d8dc3ac8967e
+[10:49:28][Debug] : ekulstorm released lock Kerbal - Doodney Kerman
+[10:49:28][Debug] : Removing vessel 0653c1a4-eba5-4864-b40e-d8dc3ac8967e from ekulstorm
+[10:49:28][Debug] : ekulstorm released lock Update - 1c5709fb-c5f6-4888-8d25-b427987e3649
+[10:49:28][Debug] : ekulstorm released lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:49:28][Debug] : ekulstorm released lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:49:28][Debug] : ekulstorm released lock UnloadedUpdate - 1c5709fb-c5f6-4888-8d25-b427987e3649
+[10:49:28][Debug] : ekulstorm acquired lock Control - 1c5709fb-c5f6-4888-8d25-b427987e3649
+[10:49:28][Debug] : ekulstorm acquired lock Kerbal - Doodney Kerman
+[10:49:28][Debug] : Performing backups...
+[10:49:28][Debug] : ekulstorm acquired lock UnloadedUpdate - 1c5709fb-c5f6-4888-8d25-b427987e3649
+[10:49:28][Debug] : ekulstorm acquired lock Update - 1c5709fb-c5f6-4888-8d25-b427987e3649
+[10:49:28][Debug] : ekulstorm acquired lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:49:28][Debug] : ekulstorm acquired lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:49:30][Debug] : ekulstorm released lock Control - 1c5709fb-c5f6-4888-8d25-b427987e3649
+[10:49:30][Debug] : ekulstorm released lock Kerbal - Doodney Kerman
+[10:49:30][Debug] : ekulstorm released lock Update - 1c5709fb-c5f6-4888-8d25-b427987e3649
+[10:49:30][Debug] : ekulstorm released lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:49:30][Debug] : ekulstorm released lock UnloadedUpdate - 1c5709fb-c5f6-4888-8d25-b427987e3649
+[10:49:30][Debug] : ekulstorm released lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:49:30][Debug] : ekulstorm acquired lock Control - 1c5709fb-c5f6-4888-8d25-b427987e3649
+[10:49:30][Debug] : ekulstorm acquired lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:49:30][Debug] : ekulstorm acquired lock Kerbal - Doodney Kerman
+[10:49:30][Debug] : ekulstorm acquired lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:49:37][Debug] : ekulstorm created the new subspace '172'
+[10:49:37][Debug] : Removing abandoned subspace '171'
+[10:49:39][Debug] : Saving kerbal Doodney Kerman from ekulstorm
+[10:49:39][Debug] : Science received: 148.8437 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: evaReport@KerbinSrfSplashedWater
+[10:49:39][Debug] : Science received: 160.8437 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: surfaceSample@KerbinSrfSplashedWater
+[10:49:39][Debug] : Science received: 166.4437 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 166.4437 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 166.4437 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 166.4437 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 166.5826 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.7826 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.7826 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.7826 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.7826 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.7826 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.7826 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 166.5826 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: evaReport@KerbinSrfSplashedWater
+[10:49:39][Debug] : Science received: 169.5826 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: surfaceSample@KerbinSrfSplashedWater
+[10:49:39][Debug] : Science received: 169.5826 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 169.5826 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 169.5826 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 169.5826 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 169.6057 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8058 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8058 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8058 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8058 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8058 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8058 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 169.6057 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: evaReport@KerbinSrfSplashedWater
+[10:49:39][Debug] : Science received: 170.3557 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: surfaceSample@KerbinSrfSplashedWater
+[10:49:39][Debug] : Science received: 170.3557 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 170.3557 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 170.3557 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 170.3557 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 170.3596 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8096 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8096 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8096 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8096 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8096 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8096 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 170.3596 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: evaReport@KerbinSrfSplashedWater
+[10:49:39][Debug] : Science received: 170.5471 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: surfaceSample@KerbinSrfSplashedWater
+[10:49:39][Debug] : Science received: 170.5471 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 170.5471 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 170.5471 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 170.5471 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 170.5477 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8102 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8102 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8102 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8102 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8102 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8102 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 170.5477 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: evaReport@KerbinSrfSplashedWater
+[10:49:39][Debug] : Science received: 170.5946 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: surfaceSample@KerbinSrfSplashedWater
+[10:49:39][Debug] : Science received: 170.5946 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 170.5946 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 170.5946 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 170.5946 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 170.5947 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8104 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8104 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8104 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8104 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8104 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8104 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 170.5947 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: evaReport@KerbinSrfSplashedWater
+[10:49:39][Debug] : Science received: 170.6064 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: surfaceSample@KerbinSrfSplashedWater
+[10:49:39][Debug] : Science received: 170.6064 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 170.6064 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 170.6064 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 170.6064 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 170.6065 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8104 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8104 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8104 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8104 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8104 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8104 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 170.6065 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: evaReport@KerbinSrfSplashedWater
+[10:49:39][Debug] : Science received: 170.6094 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: surfaceSample@KerbinSrfSplashedWater
+[10:49:39][Debug] : Science received: 170.6094 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 170.6094 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 170.6094 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 170.6094 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: temperatureScan@KerbinFlyingLowWater
+[10:49:39][Debug] : Science received: 170.6094 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8104 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8104 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8104 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8104 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8104 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : Science received: 305.8104 Reason: VesselRecovery
+[10:49:39][Debug] : Science experiment received: recovery@KerbinFlew
+[10:49:39][Debug] : ekulstorm released lock Control - 1c5709fb-c5f6-4888-8d25-b427987e3649
+[10:49:39][Debug] : ekulstorm released lock Kerbal - Doodney Kerman
+[10:49:39][Debug] : Removing vessel 1c5709fb-c5f6-4888-8d25-b427987e3649 from ekulstorm
+[10:49:39][Debug] : Saving kerbal Doodney Kerman from ekulstorm
+[10:49:41][Debug] : Saving 2 scenario modules from ekulstorm
+[10:49:58][Debug] : Performing backups...
+[10:50:06][Debug] : Science received: 10.60939 Reason: RnDTechResearch
+[10:50:06][Debug] : Technology unlocked: precisionEngineering
+[10:50:11][Debug] : Saving 2 scenario modules from ekulstorm
+[10:50:20][Debug] : ekulstorm released lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:50:20][Debug] : ekulstorm released lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:50:27][Debug] : ekulstorm acquired lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:50:27][Debug] : ekulstorm acquired lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:50:28][Debug] : Performing backups...
+[10:50:58][Debug] : Performing backups...
+[10:51:28][Debug] : Performing backups...
+[10:51:58][Debug] : Performing backups...
+[10:52:14][Debug] : ekulstorm released lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:52:14][Debug] : ekulstorm released lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:52:18][Debug] : Saving 2 scenario modules from ekulstorm
+[10:52:20][Debug] : ekulstorm acquired lock Control - ef449067-69ce-4056-8432-c3cf96f964da
+[10:52:20][Debug] : ekulstorm acquired lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:52:20][Debug] : ekulstorm acquired lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:52:21][Debug] : ekulstorm acquired lock Update - 516b9905-ebec-454d-81c4-717aee49cdbd
+[10:52:21][Debug] : ekulstorm acquired lock Update - ef449067-69ce-4056-8432-c3cf96f964da
+[10:52:21][Debug] : ekulstorm acquired lock UnloadedUpdate - ef449067-69ce-4056-8432-c3cf96f964da
+[10:52:22][Debug] : Saving vessel ef449067-69ce-4056-8432-c3cf96f964da from ekulstorm. Bytes: 208334
+[10:52:24][Debug] : ekulstorm acquired lock UnloadedUpdate - 516b9905-ebec-454d-81c4-717aee49cdbd
+[10:52:28][Debug] : Performing backups...
+[10:52:48][Debug] : Saving 2 scenario modules from ekulstorm
+[10:52:48][Debug] : ekulstorm acquired lock Update - 2b4845cc-38e8-4dbb-8bbc-5473618df146
+[10:52:48][Debug] : ekulstorm acquired lock Update - 67a66e67-f470-4aa0-81b4-975e65abf8c4
+[10:52:48][Debug] : ekulstorm acquired lock Update - 5c546dd4-d07f-44d4-97bb-c5cc14a1419f
+[10:52:48][Debug] : ekulstorm acquired lock Update - 745c4183-7bdc-49ab-84a7-212196c1a27f
+[10:52:51][Debug] : ekulstorm acquired lock UnloadedUpdate - 2b4845cc-38e8-4dbb-8bbc-5473618df146
+[10:52:51][Debug] : ekulstorm acquired lock UnloadedUpdate - 745c4183-7bdc-49ab-84a7-212196c1a27f
+[10:52:51][Debug] : ekulstorm acquired lock UnloadedUpdate - 67a66e67-f470-4aa0-81b4-975e65abf8c4
+[10:52:51][Debug] : ekulstorm acquired lock UnloadedUpdate - 5c546dd4-d07f-44d4-97bb-c5cc14a1419f
+[10:52:51][Debug] : ekulstorm released lock Update - 2b4845cc-38e8-4dbb-8bbc-5473618df146
+[10:52:51][Debug] : ekulstorm released lock Update - 745c4183-7bdc-49ab-84a7-212196c1a27f
+[10:52:51][Debug] : ekulstorm released lock Update - 67a66e67-f470-4aa0-81b4-975e65abf8c4
+[10:52:51][Debug] : ekulstorm released lock Update - 5c546dd4-d07f-44d4-97bb-c5cc14a1419f
+[10:52:58][Debug] : Performing backups...
+[10:53:06][Debug] : ekulstorm released lock Update - 516b9905-ebec-454d-81c4-717aee49cdbd
+[10:53:18][Debug] : Saving 2 scenario modules from ekulstorm
+[10:53:28][Debug] : Performing backups...
+[10:53:30][Debug] : ekulstorm released lock Control - ef449067-69ce-4056-8432-c3cf96f964da
+[10:53:30][Debug] : ekulstorm released lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:53:30][Debug] : ekulstorm released lock Update - ef449067-69ce-4056-8432-c3cf96f964da
+[10:53:30][Debug] : ekulstorm released lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:53:30][Debug] : ekulstorm released lock UnloadedUpdate - ef449067-69ce-4056-8432-c3cf96f964da
+[10:53:30][Debug] : ekulstorm released lock UnloadedUpdate - 2b4845cc-38e8-4dbb-8bbc-5473618df146
+[10:53:30][Debug] : ekulstorm released lock UnloadedUpdate - 745c4183-7bdc-49ab-84a7-212196c1a27f
+[10:53:30][Debug] : ekulstorm released lock UnloadedUpdate - 5c546dd4-d07f-44d4-97bb-c5cc14a1419f
+[10:53:30][Debug] : ekulstorm released lock UnloadedUpdate - 67a66e67-f470-4aa0-81b4-975e65abf8c4
+[10:53:30][Debug] : ekulstorm released lock UnloadedUpdate - 516b9905-ebec-454d-81c4-717aee49cdbd
+[10:53:30][Debug] : ekulstorm acquired lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:53:30][Debug] : ekulstorm acquired lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:53:30][Debug] : Removing vessel ef449067-69ce-4056-8432-c3cf96f964da from ekulstorm
+[10:53:58][Debug] : Performing backups...
+[10:54:01][Debug] : ekulstorm released lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:54:01][Debug] : ekulstorm released lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:54:06][Debug] : ekulstorm acquired lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[10:54:06][Debug] : ekulstorm acquired lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[10:54:06][Debug] : ekulstorm acquired lock Control - d528b880-f41d-4c6b-a3f8-549c0864fce0
+[10:54:07][Debug] : ekulstorm acquired lock Update - d528b880-f41d-4c6b-a3f8-549c0864fce0
+[10:54:07][Debug] : ekulstorm acquired lock UnloadedUpdate - d528b880-f41d-4c6b-a3f8-549c0864fce0
+[10:54:07][Debug] : ekulstorm acquired lock Update - 516b9905-ebec-454d-81c4-717aee49cdbd
+[10:54:08][Debug] : ekulstorm is warping
+[10:54:08][Debug] : Saving vessel d528b880-f41d-4c6b-a3f8-549c0864fce0 from ekulstorm. Bytes: 208199
+[10:54:10][Debug] : ekulstorm acquired lock UnloadedUpdate - 516b9905-ebec-454d-81c4-717aee49cdbd
+[10:54:15][Debug] : ekulstorm created the new subspace '173'
+[10:54:15][Debug] : Removing abandoned subspace '172'
+[10:54:18][Debug] : Saving 2 scenario modules from ekulstorm
+[10:54:28][Debug] : Performing backups...
+[10:54:48][Debug] : Saving 2 scenario modules from ekulstorm
+[10:54:55][Debug] : ekulstorm acquired lock Update - f1954ae7-1f09-45a1-ab1d-dd905f042f27
+[10:54:55][Debug] : ekulstorm acquired lock Update - dd6ea78f-53ed-4a96-9003-c560f6dffedd
+[10:54:55][Debug] : ekulstorm acquired lock Update - d1509d55-a240-40c6-985b-d38826ac5ff1
+[10:54:55][Debug] : ekulstorm acquired lock Update - 6019be1e-b177-431f-b858-953343badc08
+[10:54:58][Debug] : Performing backups...
+[10:54:58][Debug] : ekulstorm acquired lock UnloadedUpdate - 6019be1e-b177-431f-b858-953343badc08
+[10:54:58][Debug] : ekulstorm acquired lock UnloadedUpdate - dd6ea78f-53ed-4a96-9003-c560f6dffedd
+[10:54:58][Debug] : ekulstorm acquired lock UnloadedUpdate - d1509d55-a240-40c6-985b-d38826ac5ff1
+[10:54:58][Debug] : ekulstorm acquired lock UnloadedUpdate - f1954ae7-1f09-45a1-ab1d-dd905f042f27
+[10:54:58][Debug] : ekulstorm released lock Update - f1954ae7-1f09-45a1-ab1d-dd905f042f27
+[10:54:58][Debug] : ekulstorm released lock Update - 6019be1e-b177-431f-b858-953343badc08
+[10:54:58][Debug] : ekulstorm released lock Update - d1509d55-a240-40c6-985b-d38826ac5ff1
+[10:54:58][Debug] : ekulstorm released lock Update - dd6ea78f-53ed-4a96-9003-c560f6dffedd
+[10:55:16][Debug] : ekulstorm released lock Update - 516b9905-ebec-454d-81c4-717aee49cdbd
+[10:55:18][Debug] : Saving 2 scenario modules from ekulstorm
+[10:55:28][Debug] : Performing backups...
+[10:55:48][Debug] : Saving 2 scenario modules from ekulstorm
+[10:55:58][Debug] : Performing backups...
+[10:56:08][Debug] : ekulstorm acquired lock Update - 900e402e-32c7-4a2d-ab73-cc175cd2507b
+[10:56:08][Debug] : ekulstorm acquired lock Update - 6d3fb6f5-b279-4ff4-b1bd-8a4e01695169
+[10:56:08][Debug] : ekulstorm acquired lock Update - e276ae2a-6f27-4844-bab7-1eeecefa61f5
+[10:56:08][Debug] : ekulstorm acquired lock Update - fa5fc651-7c31-4729-8d43-e5bf53189d82
+[10:56:11][Debug] : ekulstorm acquired lock UnloadedUpdate - fa5fc651-7c31-4729-8d43-e5bf53189d82
+[10:56:11][Debug] : ekulstorm acquired lock UnloadedUpdate - 6d3fb6f5-b279-4ff4-b1bd-8a4e01695169
+[10:56:11][Debug] : ekulstorm acquired lock UnloadedUpdate - e276ae2a-6f27-4844-bab7-1eeecefa61f5
+[10:56:11][Debug] : ekulstorm acquired lock UnloadedUpdate - 900e402e-32c7-4a2d-ab73-cc175cd2507b
+[10:56:11][Debug] : Saving vessel 6d3fb6f5-b279-4ff4-b1bd-8a4e01695169 from ekulstorm. Bytes: 19769
+[10:56:11][Debug] : Saving vessel fa5fc651-7c31-4729-8d43-e5bf53189d82 from ekulstorm. Bytes: 19777
+[10:56:11][Debug] : Saving vessel e276ae2a-6f27-4844-bab7-1eeecefa61f5 from ekulstorm. Bytes: 18169
+[10:56:11][Debug] : Saving vessel 900e402e-32c7-4a2d-ab73-cc175cd2507b from ekulstorm. Bytes: 19775
+[10:56:18][Debug] : Saving 2 scenario modules from ekulstorm
+[10:56:28][Debug] : Performing backups...
+[10:56:48][Debug] : Saving 2 scenario modules from ekulstorm
+[10:56:52][Info] : Removing debris vessel: 6d3fb6f5-b279-4ff4-b1bd-8a4e01695169
+[10:56:52][Info] : Removing debris vessel: 900e402e-32c7-4a2d-ab73-cc175cd2507b
+[10:56:52][Info] : Removing debris vessel: e276ae2a-6f27-4844-bab7-1eeecefa61f5
+[10:56:52][Info] : Removing debris vessel: fa5fc651-7c31-4729-8d43-e5bf53189d82
+[10:56:52][Info] : Removed 4 debris
+[10:56:58][Debug] : Performing backups...
+[10:57:18][Debug] : Saving 2 scenario modules from ekulstorm
+[10:57:28][Debug] : Performing backups...
+[10:57:48][Debug] : Saving 2 scenario modules from ekulstorm
+[10:57:58][Debug] : Performing backups...
+[10:58:18][Debug] : Saving 2 scenario modules from ekulstorm
+[10:58:28][Debug] : Performing backups...
+[10:58:33][Debug] : ekulstorm is warping
+[10:58:48][Debug] : Saving 2 scenario modules from ekulstorm
+[10:58:58][Debug] : Performing backups...
+[10:59:10][Debug] : ekulstorm created the new subspace '174'
+[10:59:11][Debug] : Removing abandoned subspace '173'
+[10:59:18][Debug] : Saving 2 scenario modules from ekulstorm
+[10:59:28][Debug] : Performing backups...
+[10:59:45][Debug] : ekulstorm is warping
+[10:59:48][Debug] : Saving 2 scenario modules from ekulstorm
+[10:59:52][Debug] : ekulstorm created the new subspace '175'
+[10:59:52][Debug] : Removing abandoned subspace '174'
+[10:59:58][Debug] : Performing backups...
+[11:00:18][Debug] : Saving 2 scenario modules from ekulstorm
+[11:00:28][Debug] : Performing backups...
+[11:00:36][Debug] : ekulstorm acquired lock Update - d5ff11e3-d49b-49ee-8214-23eff5a24440
+[11:00:39][Debug] : ekulstorm acquired lock UnloadedUpdate - d5ff11e3-d49b-49ee-8214-23eff5a24440
+[11:00:39][Debug] : Saving vessel d5ff11e3-d49b-49ee-8214-23eff5a24440 from ekulstorm. Bytes: 31064
+[11:00:48][Debug] : Saving 2 scenario modules from ekulstorm
+[11:00:52][Info] : Removing debris vessel: d5ff11e3-d49b-49ee-8214-23eff5a24440
+[11:00:52][Info] : Removed 1 debris
+[11:00:58][Debug] : Performing backups...
+[11:01:18][Debug] : Saving 2 scenario modules from ekulstorm
+[11:01:28][Debug] : Performing backups...
+[11:01:48][Debug] : Saving 2 scenario modules from ekulstorm
+[11:01:58][Debug] : Performing backups...
+[11:02:18][Debug] : Saving 2 scenario modules from ekulstorm
+[11:02:28][Debug] : Performing backups...
+[11:02:48][Debug] : Saving 2 scenario modules from ekulstorm
+[11:02:50][Debug] : ekulstorm is warping
+[11:02:58][Debug] : ekulstorm created the new subspace '176'
+[11:02:58][Debug] : Removing abandoned subspace '175'
+[11:02:58][Debug] : Performing backups...
+[11:03:07][Debug] : ekulstorm is warping
+[11:03:16][Debug] : ekulstorm created the new subspace '177'
+[11:03:16][Debug] : Removing abandoned subspace '176'
+[11:03:18][Debug] : Saving 2 scenario modules from ekulstorm
+[11:03:28][Debug] : Performing backups...
+[11:03:48][Debug] : Saving 2 scenario modules from ekulstorm
+[11:03:58][Debug] : Performing backups...
+[11:04:18][Debug] : Saving 2 scenario modules from ekulstorm
+[11:04:28][Debug] : Performing backups...
+[11:04:48][Debug] : Saving 2 scenario modules from ekulstorm
+[11:04:58][Debug] : Performing backups...
+[11:05:12][Debug] : ekulstorm is warping
+[11:05:17][Debug] : ekulstorm created the new subspace '178'
+[11:05:17][Debug] : Removing abandoned subspace '177'
+[11:05:18][Debug] : Saving 2 scenario modules from ekulstorm
+[11:05:21][Debug] : ekulstorm is warping
+[11:05:24][Debug] : ekulstorm created the new subspace '179'
+[11:05:24][Debug] : Removing abandoned subspace '178'
+[11:05:28][Debug] : Performing backups...
+[11:05:31][Debug] : ekulstorm is warping
+[11:05:39][Debug] : ekulstorm created the new subspace '180'
+[11:05:39][Debug] : Removing abandoned subspace '179'
+[11:05:48][Debug] : Saving 2 scenario modules from ekulstorm
+[11:05:58][Debug] : Performing backups...
+[11:05:59][Debug] : ekulstorm acquired lock Update - 553f269d-0cee-4a68-b494-ccfd36aaea5f
+[11:06:02][Debug] : ekulstorm acquired lock UnloadedUpdate - 553f269d-0cee-4a68-b494-ccfd36aaea5f
+[11:06:02][Debug] : Saving vessel 553f269d-0cee-4a68-b494-ccfd36aaea5f from ekulstorm. Bytes: 17959
+[11:06:18][Debug] : Saving 2 scenario modules from ekulstorm
+[11:06:19][Debug] : Science experiment received: temperatureScan@KerbinInSpaceHigh
+[11:06:20][Debug] : Science experiment received: mobileMaterialsLab@KerbinInSpaceHigh
+[11:06:20][Debug] : Science experiment received: barometerScan@KerbinInSpaceHigh
+[11:06:21][Debug] : Science experiment received: barometerScan@KerbinInSpaceHigh
+[11:06:21][Debug] : Science experiment received: temperatureScan@KerbinInSpaceHigh
+[11:06:22][Debug] : Science experiment received: mysteryGoo@KerbinInSpaceHigh
+[11:06:22][Debug] : Science experiment received: mysteryGoo@KerbinInSpaceHigh
+[11:06:28][Debug] : Performing backups...
+[11:06:42][Debug] : Science received: 28.98439 Reason: ScienceTransmission
+[11:06:42][Debug] : Science experiment received: mobileMaterialsLab@KerbinInSpaceHigh
+[11:06:45][Debug] : Science received: 35.28439 Reason: ScienceTransmission
+[11:06:45][Debug] : Science experiment received: mysteryGoo@KerbinInSpaceHigh
+[11:06:47][Debug] : Science received: 36.07819 Reason: ScienceTransmission
+[11:06:47][Debug] : Science experiment received: mysteryGoo@KerbinInSpaceHigh
+[11:06:48][Debug] : Saving 2 scenario modules from ekulstorm
+[11:06:50][Debug] : Science received: 48.67819 Reason: ScienceTransmission
+[11:06:50][Debug] : Science experiment received: barometerScan@KerbinInSpaceHigh
+[11:06:52][Info] : Removing debris vessel: 553f269d-0cee-4a68-b494-ccfd36aaea5f
+[11:06:52][Info] : Removed 1 debris
+[11:06:53][Debug] : Science received: 48.67819 Reason: ScienceTransmission
+[11:06:53][Debug] : Science experiment received: barometerScan@KerbinInSpaceHigh
+[11:06:55][Debug] : Science received: 57.07819 Reason: ScienceTransmission
+[11:06:55][Debug] : Science experiment received: temperatureScan@KerbinInSpaceHigh
+[11:06:57][Debug] : Science received: 57.07819 Reason: ScienceTransmission
+[11:06:57][Debug] : Science experiment received: temperatureScan@KerbinInSpaceHigh
+[11:06:58][Debug] : Performing backups...
+[11:07:18][Debug] : Saving 2 scenario modules from ekulstorm
+[11:07:28][Debug] : Performing backups...
+[11:07:45][Debug] : Science experiment received: temperatureScan@KerbinInSpaceHigh
+[11:07:45][Debug] : Science experiment received: barometerScan@KerbinInSpaceHigh
+[11:07:46][Debug] : Science experiment received: barometerScan@KerbinInSpaceHigh
+[11:07:47][Debug] : Science experiment received: temperatureScan@KerbinInSpaceHigh
+[11:07:48][Debug] : Saving 2 scenario modules from ekulstorm
+[11:07:58][Debug] : Performing backups...
+[11:08:18][Debug] : Saving 2 scenario modules from ekulstorm
+[11:08:24][Debug] : ekulstorm released lock Control - d528b880-f41d-4c6b-a3f8-549c0864fce0
+[11:08:24][Debug] : ekulstorm released lock Update - 6d3fb6f5-b279-4ff4-b1bd-8a4e01695169
+[11:08:24][Debug] : ekulstorm released lock Update - d5ff11e3-d49b-49ee-8214-23eff5a24440
+[11:08:24][Debug] : ekulstorm released lock Update - e276ae2a-6f27-4844-bab7-1eeecefa61f5
+[11:08:24][Debug] : ekulstorm released lock Update - fa5fc651-7c31-4729-8d43-e5bf53189d82
+[11:08:24][Debug] : ekulstorm released lock Update - 553f269d-0cee-4a68-b494-ccfd36aaea5f
+[11:08:24][Debug] : ekulstorm released lock Update - d528b880-f41d-4c6b-a3f8-549c0864fce0
+[11:08:24][Debug] : ekulstorm released lock Update - 900e402e-32c7-4a2d-ab73-cc175cd2507b
+[11:08:24][Debug] : ekulstorm released lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[11:08:24][Debug] : ekulstorm released lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[11:08:24][Debug] : ekulstorm released lock UnloadedUpdate - dd6ea78f-53ed-4a96-9003-c560f6dffedd
+[11:08:24][Debug] : ekulstorm released lock UnloadedUpdate - d5ff11e3-d49b-49ee-8214-23eff5a24440
+[11:08:24][Debug] : ekulstorm released lock UnloadedUpdate - d1509d55-a240-40c6-985b-d38826ac5ff1
+[11:08:24][Debug] : ekulstorm released lock UnloadedUpdate - 6019be1e-b177-431f-b858-953343badc08
+[11:08:24][Debug] : ekulstorm released lock UnloadedUpdate - 6d3fb6f5-b279-4ff4-b1bd-8a4e01695169
+[11:08:24][Debug] : ekulstorm released lock UnloadedUpdate - f1954ae7-1f09-45a1-ab1d-dd905f042f27
+[11:08:24][Debug] : ekulstorm released lock UnloadedUpdate - fa5fc651-7c31-4729-8d43-e5bf53189d82
+[11:08:24][Debug] : ekulstorm released lock UnloadedUpdate - d528b880-f41d-4c6b-a3f8-549c0864fce0
+[11:08:24][Debug] : ekulstorm released lock UnloadedUpdate - e276ae2a-6f27-4844-bab7-1eeecefa61f5
+[11:08:24][Debug] : ekulstorm released lock UnloadedUpdate - 516b9905-ebec-454d-81c4-717aee49cdbd
+[11:08:24][Debug] : ekulstorm released lock UnloadedUpdate - 553f269d-0cee-4a68-b494-ccfd36aaea5f
+[11:08:24][Debug] : ekulstorm released lock UnloadedUpdate - 900e402e-32c7-4a2d-ab73-cc175cd2507b
+[11:08:27][Debug] : ekulstorm acquired lock Update - f1954ae7-1f09-45a1-ab1d-dd905f042f27
+[11:08:27][Debug] : Saving vessel f1954ae7-1f09-45a1-ab1d-dd905f042f27 from ekulstorm. Bytes: 32962
+[11:08:27][Debug] : Saving vessel d1509d55-a240-40c6-985b-d38826ac5ff1 from ekulstorm. Bytes: 32975
+[11:08:27][Debug] : ekulstorm acquired lock Update - d1509d55-a240-40c6-985b-d38826ac5ff1
+[11:08:27][Debug] : ekulstorm acquired lock Update - 6019be1e-b177-431f-b858-953343badc08
+[11:08:27][Debug] : ekulstorm acquired lock Update - dd6ea78f-53ed-4a96-9003-c560f6dffedd
+[11:08:27][Debug] : Saving vessel 6019be1e-b177-431f-b858-953343badc08 from ekulstorm. Bytes: 32977
+[11:08:27][Debug] : Saving vessel dd6ea78f-53ed-4a96-9003-c560f6dffedd from ekulstorm. Bytes: 32975
+[11:08:28][Debug] : Performing backups...
+[11:08:29][Debug] : ekulstorm acquired lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[11:08:29][Debug] : ekulstorm acquired lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[11:08:29][Debug] : ekulstorm acquired lock UnloadedUpdate - d528b880-f41d-4c6b-a3f8-549c0864fce0
+[11:08:30][Debug] : ekulstorm acquired lock UnloadedUpdate - dd6ea78f-53ed-4a96-9003-c560f6dffedd
+[11:08:30][Debug] : ekulstorm acquired lock UnloadedUpdate - d1509d55-a240-40c6-985b-d38826ac5ff1
+[11:08:30][Debug] : ekulstorm acquired lock UnloadedUpdate - 6019be1e-b177-431f-b858-953343badc08
+[11:08:30][Debug] : ekulstorm acquired lock UnloadedUpdate - f1954ae7-1f09-45a1-ab1d-dd905f042f27
+[11:08:30][Debug] : ekulstorm released lock Update - f1954ae7-1f09-45a1-ab1d-dd905f042f27
+[11:08:30][Debug] : ekulstorm released lock Update - dd6ea78f-53ed-4a96-9003-c560f6dffedd
+[11:08:30][Debug] : ekulstorm released lock Update - d1509d55-a240-40c6-985b-d38826ac5ff1
+[11:08:30][Debug] : ekulstorm released lock Update - 6019be1e-b177-431f-b858-953343badc08
+[11:08:48][Debug] : Saving 2 scenario modules from ekulstorm
+[11:08:52][Info] : Removing debris vessel: f1954ae7-1f09-45a1-ab1d-dd905f042f27
+[11:08:52][Info] : Removing debris vessel: dd6ea78f-53ed-4a96-9003-c560f6dffedd
+[11:08:52][Info] : Removing debris vessel: d1509d55-a240-40c6-985b-d38826ac5ff1
+[11:08:52][Info] : Removing debris vessel: 6019be1e-b177-431f-b858-953343badc08
+[11:08:52][Info] : Removed 4 debris
+[11:08:58][Debug] : Performing backups...
+[11:09:11][Debug] : ekulstorm released lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[11:09:11][Debug] : ekulstorm released lock UnloadedUpdate - dd6ea78f-53ed-4a96-9003-c560f6dffedd
+[11:09:11][Debug] : ekulstorm released lock UnloadedUpdate - 6019be1e-b177-431f-b858-953343badc08
+[11:09:11][Debug] : ekulstorm released lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[11:09:11][Debug] : ekulstorm released lock UnloadedUpdate - d1509d55-a240-40c6-985b-d38826ac5ff1
+[11:09:11][Debug] : ekulstorm released lock UnloadedUpdate - f1954ae7-1f09-45a1-ab1d-dd905f042f27
+[11:09:11][Debug] : ekulstorm released lock UnloadedUpdate - d528b880-f41d-4c6b-a3f8-549c0864fce0
+[11:09:17][Debug] : ekulstorm acquired lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[11:09:17][Debug] : ekulstorm acquired lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[11:09:17][Debug] : ekulstorm acquired lock UnloadedUpdate - d528b880-f41d-4c6b-a3f8-549c0864fce0
+[11:09:18][Debug] : Saving 2 scenario modules from ekulstorm
+[11:09:28][Debug] : Performing backups...
+[11:09:48][Debug] : Saving 2 scenario modules from ekulstorm
+[11:09:58][Debug] : Performing backups...
+[11:10:18][Debug] : Saving 2 scenario modules from ekulstorm
+[11:10:28][Debug] : Performing backups...
+[11:10:48][Debug] : Saving 2 scenario modules from ekulstorm
+[11:10:58][Debug] : Performing backups...
+[11:11:18][Debug] : Saving 2 scenario modules from ekulstorm
+[11:11:28][Debug] : Performing backups...
+[11:11:48][Debug] : Saving 2 scenario modules from ekulstorm
+[11:11:58][Debug] : Performing backups...
+[11:12:18][Debug] : Saving 2 scenario modules from ekulstorm
+[11:12:28][Debug] : Performing backups...
+[11:12:48][Debug] : Saving 2 scenario modules from ekulstorm
+[11:12:58][Debug] : Performing backups...
+[11:13:18][Debug] : Saving 2 scenario modules from ekulstorm
+[11:13:28][Debug] : Performing backups...
+[11:13:48][Debug] : Saving 2 scenario modules from ekulstorm
+[11:13:58][Debug] : Performing backups...
+[11:14:18][Debug] : Saving 2 scenario modules from ekulstorm
+[11:14:28][Debug] : Performing backups...
+[11:14:48][Debug] : Saving 2 scenario modules from ekulstorm
+[11:14:58][Debug] : Performing backups...
+[11:15:18][Debug] : Saving 2 scenario modules from ekulstorm
+[11:15:28][Debug] : Performing backups...
+[11:15:48][Debug] : Saving 2 scenario modules from ekulstorm
+[11:15:58][Debug] : Performing backups...
+[11:16:18][Debug] : Saving 2 scenario modules from ekulstorm
+[11:16:28][Debug] : Performing backups...
+[11:16:48][Debug] : Saving 2 scenario modules from ekulstorm
+[11:16:58][Debug] : Performing backups...
+[11:17:18][Debug] : Saving 2 scenario modules from ekulstorm
+[11:17:28][Debug] : Performing backups...
+[11:17:49][Debug] : Saving 2 scenario modules from ekulstorm
+[11:17:58][Debug] : Performing backups...
+[11:17:59][Debug] : ekulstorm sent Connection end message, reason: Disconnected
+[11:17:59][Debug] : Online Players: 0, connected: 0
+[11:17:59][Debug] : ekulstorm released lock UnloadedUpdate - 485fe3f0-44ff-4ac5-abbb-3adc3744306d
+[11:17:59][Debug] : ekulstorm released lock UnloadedUpdate - 3059e3d6-e01c-4b1c-b46d-c0b959fe3b27
+[11:17:59][Debug] : ekulstorm released lock UnloadedUpdate - d528b880-f41d-4c6b-a3f8-549c0864fce0
+[11:18:09][Info] : Exiting... Please wait until all threads are finished
+[11:18:09][Info] : So long and thanks for all the fish!
