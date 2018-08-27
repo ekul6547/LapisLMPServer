@@ -61,7 +61,7 @@
   <!--Part Upgrades-->
   <PartUpgrades>true</PartUpgrades>
   <!--Require Signal for Control-->
-  <RequireSignalForControl>false</RequireSignalForControl>
+  <RequireSignalForControl>true</RequireSignalForControl>
   <!--Range Modifier-->
   <RangeModifier>1</RangeModifier>
   <!--DSN Modifier-->
