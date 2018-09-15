@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<LMPConfigNodeToXML>
-  <Parameter name="name">DMScienceScenario</Parameter>
-  <Parameter name="scene">7, 5, 8, 6</Parameter>
-  <Node name="Asteroid_Science" />
-  <Node name="Anomaly_Records" />
-</LMPConfigNodeToXML>

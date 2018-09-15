@@ -7,15 +7,14 @@ dumb = 0.100000001
 badS = False
 veteran = True
 tour = False
-state = Dead
+state = Available
 inactive = False
 inactiveTimeEnd = 0
 gExperienced = 0
 outDueToG = False
-ToD = 476796.28042801394
+ToD = 0
 idx = -1
 extraXP = 0
-hero = False
 CAREER_LOG
 {
 	flight = 0

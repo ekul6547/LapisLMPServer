@@ -4,6 +4,8 @@
   <ServerName>Lapis's Luna Server</ServerName>
   <!--Description of the server. Max 200 char-->
   <Description>Modded server! Go to repo link for password!</Description>
+  <!--By default this will be given by the masterserver but you can override it here if you want. Max 2 char-->
+  <CountryCode />
   <!--Website text to display (discord, website, forum, etc). Can be left empty. Max 15 char-->
   <WebsiteText>Mods Git Repo</WebsiteText>
   <!--Actual website URL. Can be left empty. Max 60 char-->
@@ -11,7 +13,7 @@
   <!--Password for the server. Leave it empty if you want to make a public server. Max 30 chars-->
   <Password>lapisLMP</Password>
   <!--Admin password for the server. Leave it empty if you don't want to allow server administration from KSP. Max 30 chars-->
-  <AdminPassword></AdminPassword>
+  <AdminPassword />
   <!--Specify the server's MOTD (message of the day). 255 chars max-->
   <ServerMotd>Welcome, %Name%!</ServerMotd>
   <!--Maximum amount of players that can join the server.-->
