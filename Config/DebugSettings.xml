@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<DebugSettingsDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<DebugSettingsDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <!--A percentage value to simulate the probability of a packet loss. From 0.0% to 100.0%-->
   <SimulatedLossChance>0</SimulatedLossChance>
   <!--A percentage value to simulate the probability of a packet duplication. From 0.0% to 100.0%-->

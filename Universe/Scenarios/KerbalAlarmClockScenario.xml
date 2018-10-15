@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LMPConfigNodeToXML>
+  <Parameter name="name">KerbalAlarmClockScenario</Parameter>
+  <Parameter name="scene">5, 6, 7, 8</Parameter>
+  <Node name="KACAlarmListStorage" />
+</LMPConfigNodeToXML>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LMPConfigNodeToXML>
+  <Parameter name="name">contractScenario</Parameter>
+  <Parameter name="scene">7, 6, 8, 5</Parameter>
+  <Node name="Contracts_Window_Parameters">
+    <Parameter name="WindowPosition">49,-63,250,300,50,-80,250,300,1573,-182,250,300,50,-80,250,300</Parameter>
+    <Parameter name="WindowVisible">True,False,False,False</Parameter>
+    <Node name="Contracts_Window_Mission">
+      <Parameter name="MissionName">MasterMission</Parameter>
+      <Parameter name="ActiveListID">2205251e-65b5-4ef3-adf1-95f68f3f3927|N|True,ad2f6cd0-d947-41d1-b1b9-abc40400607a|N|True,dbd4ae57-7acd-453b-aef9-bc32d8380a9a|N|True,84ab8f6b-2d04-44f5-adfb-5a90765c3b39|N|True</Parameter>
+      <Parameter name="HiddenListID"></Parameter>
+      <Parameter name="VesselIDs"></Parameter>
+      <Parameter name="AscendingSort">True</Parameter>
+      <Parameter name="ShowActiveList">True</Parameter>
+      <Parameter name="SortMode">1</Parameter>
+    </Node>
+  </Node>
+</LMPConfigNodeToXML>

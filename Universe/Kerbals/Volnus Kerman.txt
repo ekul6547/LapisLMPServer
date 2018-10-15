@@ -1,0 +1,28 @@
+name = Volnus Kerman
+gender = Male
+type = Crew
+trait = Pilot
+brave = 0.995587289
+dumb = 0.926227212
+badS = False
+veteran = False
+tour = False
+state = Available
+inactive = False
+inactiveTimeEnd = 0
+gExperienced = 0
+outDueToG = False
+ToD = 1191583.2340307017
+idx = 0
+extraXP = 0
+suit = Default
+hero = False
+CAREER_LOG
+{
+	flight = 1
+	0 = Recover
+}
+FLIGHT_LOG
+{
+	flight = 1
+}

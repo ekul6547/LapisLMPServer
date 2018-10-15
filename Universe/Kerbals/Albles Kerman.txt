@@ -1,0 +1,26 @@
+name = Albles Kerman
+gender = Female
+type = Unowned
+trait = Scientist
+brave = 0.996560574
+dumb = 0.0626861379
+badS = False
+veteran = False
+tour = False
+state = Assigned
+inactive = False
+inactiveTimeEnd = 0
+gExperienced = 0
+outDueToG = False
+ToD = 0
+idx = -1
+extraXP = 0
+hero = False
+CAREER_LOG
+{
+	flight = 0
+}
+FLIGHT_LOG
+{
+	flight = 0
+}

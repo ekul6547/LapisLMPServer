@@ -2,5 +2,150 @@
 <LMPConfigNodeToXML>
   <Parameter name="name">ProgressTracking</Parameter>
   <Parameter name="scene">7, 8, 5</Parameter>
-  <Node name="Progress" />
+  <Node name="Progress">
+    <Node name="RecordsAltitude">
+      <Parameter name="completed">771.72666262191444</Parameter>
+      <Parameter name="record">70000</Parameter>
+    </Node>
+    <Node name="RecordsSpeed">
+      <Parameter name="completed">537848.14191868086</Parameter>
+      <Parameter name="record">2328.8484136540242</Parameter>
+    </Node>
+    <Node name="RecordsDistance">
+      <Parameter name="completed">877.1672607664002</Parameter>
+      <Parameter name="record">100000</Parameter>
+    </Node>
+    <Node name="FirstLaunch">
+      <Parameter name="completedManned">300.61193859998912</Parameter>
+    </Node>
+    <Node name="FirstCrewToSurvive">
+      <Parameter name="completed">427.94322252200692</Parameter>
+      <Node name="crew">
+        <Parameter name="crews">Jebediah Kerman</Parameter>
+      </Node>
+    </Node>
+    <Node name="Kerbin">
+      <Parameter name="reached">0</Parameter>
+      <Node name="Science">
+        <Parameter name="reached">0</Parameter>
+        <Node name="vessel">
+          <Parameter name="name">Untitled Space Craft</Parameter>
+          <Parameter name="flag">Squad/Agencies/GoliathNationalProducts</Parameter>
+        </Node>
+        <Node name="crew">
+          <Parameter name="crews">Jebediah Kerman</Parameter>
+        </Node>
+      </Node>
+    </Node>
+    <Node name="Science">
+      <Parameter name="completedManned">1028101.0509021613</Parameter>
+      <Node name="vessel">
+        <Parameter name="name">Smirnoff 2</Parameter>
+        <Parameter name="flag">Squad/Flags/default</Parameter>
+      </Node>
+      <Node name="crew">
+        <Parameter name="crews">Bob Kerman, Bill Kerman</Parameter>
+      </Node>
+    </Node>
+    <Node name="ReachedSpace">
+      <Parameter name="completedManned">771.76666262191441</Parameter>
+      <Node name="vessel">
+        <Parameter name="name">Ship or smth lol</Parameter>
+        <Parameter name="flag">Squad/Agencies/GoliathNationalProducts</Parameter>
+      </Node>
+      <Node name="crew">
+        <Parameter name="crews">Jebediah Kerman</Parameter>
+      </Node>
+    </Node>
+    <Node name="Landing">
+      <Parameter name="completedManned">535406.02744292526</Parameter>
+      <Node name="vessel">
+        <Parameter name="name">Kaputtes Teil</Parameter>
+        <Parameter name="flag">Squad/Agencies/R&amp;D</Parameter>
+      </Node>
+      <Node name="crew">
+        <Parameter name="crews">Bob Kerman</Parameter>
+      </Node>
+    </Node>
+    <Node name="Splashdown">
+      <Parameter name="completedUnmanned">533425.15715071361</Parameter>
+    </Node>
+    <Node name="RecordsDepth">
+      <Parameter name="reached">4013.0363912203729</Parameter>
+      <Parameter name="record">2.3227238687686622</Parameter>
+    </Node>
+    <Node name="Orbit">
+      <Parameter name="completedManned">570670.51148391713</Parameter>
+      <Node name="vessel">
+        <Parameter name="name">Smirnoff 2</Parameter>
+        <Parameter name="flag">Squad/Flags/default</Parameter>
+      </Node>
+      <Node name="crew">
+        <Parameter name="crews">Bill Kerman, Bob Kerman</Parameter>
+      </Node>
+    </Node>
+    <Node name="ReturnFromOrbit">
+      <Parameter name="completedManned">1027804.7133107691</Parameter>
+      <Node name="vessel">
+        <Parameter name="name">Smirnoff 2</Parameter>
+        <Parameter name="flag">Squad/Flags/default</Parameter>
+      </Node>
+      <Node name="crew">
+        <Parameter name="crews">Bill Kerman, Bob Kerman</Parameter>
+      </Node>
+    </Node>
+    <Node name="SurfaceEVA">
+      <Parameter name="completed">538558.00346195209</Parameter>
+      <Node name="crew">
+        <Parameter name="crews">Bob Kerman</Parameter>
+      </Node>
+    </Node>
+    <Node name="Escape">
+      <Parameter name="completedManned">583533.01597632386</Parameter>
+    </Node>
+    <Node name="Sun">
+      <Parameter name="reached">0</Parameter>
+      <Node name="Flyby">
+        <Parameter name="reached">0</Parameter>
+      </Node>
+    </Node>
+    <Node name="Flyby">
+      <Parameter name="completedManned">564074.09050726728</Parameter>
+    </Node>
+    <Node name="Spacewalk">
+      <Parameter name="completed">675586.03022119147</Parameter>
+      <Node name="crew">
+        <Parameter name="crews">Valentina Kerman</Parameter>
+      </Node>
+    </Node>
+    <Node name="Mun">
+      <Parameter name="reached">0</Parameter>
+      <Node name="Flyby">
+        <Parameter name="reached">0</Parameter>
+      </Node>
+    </Node>
+    <Node name="Suborbit">
+      <Parameter name="completedManned">570688.61148393399</Parameter>
+      <Node name="vessel">
+        <Parameter name="name">Smirnoff 2</Parameter>
+        <Parameter name="flag">Squad/Flags/default</Parameter>
+      </Node>
+      <Node name="crew">
+        <Parameter name="crews">Bill Kerman, Bob Kerman</Parameter>
+      </Node>
+    </Node>
+    <Node name="ReturnFromFlyBy">
+      <Parameter name="completedManned">1027804.7133107691</Parameter>
+      <Node name="vessel">
+        <Parameter name="name">Smirnoff 2</Parameter>
+        <Parameter name="flag">Squad/Flags/default</Parameter>
+      </Node>
+      <Node name="crew">
+        <Parameter name="crews">Bill Kerman, Bob Kerman</Parameter>
+      </Node>
+    </Node>
+    <Node name="CelestialBodyTransfer">
+      <Parameter name="completed">1058746.1626369534</Parameter>
+    </Node>
+  </Node>
 </LMPConfigNodeToXML>

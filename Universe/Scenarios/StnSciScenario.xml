@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LMPConfigNodeToXML>
+  <Parameter name="name">StnSciScenario</Parameter>
+  <Parameter name="scene">5, 7, 6, 8</Parameter>
+  <Parameter name="xp">0</Parameter>
+</LMPConfigNodeToXML>

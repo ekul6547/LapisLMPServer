@@ -2,7 +2,7 @@
 <LMPConfigNodeToXML>
   <Parameter name="name">ResearchAndDevelopment</Parameter>
   <Parameter name="scene">7, 8, 5, 6</Parameter>
-  <Parameter name="sci">0</Parameter>
+  <Parameter name="sci">78.58838</Parameter>
   <Node name="Tech">
     <Parameter name="id">start</Parameter>
     <Parameter name="state">Available</Parameter>
@@ -13,5 +13,773 @@
     <Parameter name="part">GooExperiment</Parameter>
     <Parameter name="part">trussPiece1x</Parameter>
     <Parameter name="part">parachuteSingle</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">mysteryGoo@KerbinFlyingLow</Parameter>
+    <Parameter name="title">Mystery Goo™ Observation while flying at Kerbin</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0.053254433</Parameter>
+    <Parameter name="sbv">0.699999988</Parameter>
+    <Parameter name="sci">8.6153841</Parameter>
+    <Parameter name="cap">9.09999943</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">recovery@KerbinFlew</Parameter>
+    <Parameter name="title">Bergung eines Raumfahrzeugs, das einen Flug überlebt hat.</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">7.94728621E-08</Parameter>
+    <Parameter name="sbv">5</Parameter>
+    <Parameter name="sci">5.99999952</Parameter>
+    <Parameter name="cap">6</Parameter>
+  </Node>
+  <Node name="Tech">
+    <Parameter name="id">basicRocketry</Parameter>
+    <Parameter name="state">Available</Parameter>
+    <Parameter name="cost">5</Parameter>
+    <Parameter name="part">fuelTankSmallFlat</Parameter>
+    <Parameter name="part">solidBooster</Parameter>
+    <Parameter name="part">liquidEngine2</Parameter>
+  </Node>
+  <Node name="Tech">
+    <Parameter name="id">engineering101</Parameter>
+    <Parameter name="state">Available</Parameter>
+    <Parameter name="cost">5</Parameter>
+    <Parameter name="part">SurfAntenna</Parameter>
+    <Parameter name="part">stackDecoupler</Parameter>
+    <Parameter name="part">longAntenna</Parameter>
+    <Parameter name="part">sensorThermometer</Parameter>
+    <Parameter name="part">Decoupler.1</Parameter>
+    <Parameter name="part">KIS.wrench</Parameter>
+    <Parameter name="part">KIS.guide</Parameter>
+    <Parameter name="part">dmmagBoom</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">magScan@KerbinInSpaceLow</Parameter>
+    <Parameter name="title">Magnetometer Scan while in space near Kerbin</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">1</Parameter>
+    <Parameter name="sci">5</Parameter>
+    <Parameter name="cap">5</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">crewReport@KerbinInSpaceLow</Parameter>
+    <Parameter name="title">Crewbericht im Weltraum in der Nähe von Kerbin</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">1</Parameter>
+    <Parameter name="sci">5</Parameter>
+    <Parameter name="cap">5</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">temperatureScan@KerbinInSpaceLow</Parameter>
+    <Parameter name="title">Temperature Scan while in space near Kerbin</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">1</Parameter>
+    <Parameter name="sci">8</Parameter>
+    <Parameter name="cap">8</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">mysteryGoo@KerbinInSpaceLow</Parameter>
+    <Parameter name="title">Mysteriöser Schleim™-Beobachtung im Weltraum in der Nähe von Kerbin</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0.0532544218</Parameter>
+    <Parameter name="sbv">1</Parameter>
+    <Parameter name="sci">12.3076925</Parameter>
+    <Parameter name="cap">13</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">mysteryGoo@KerbinFlyingHigh</Parameter>
+    <Parameter name="title">Mystery Goo™ Observation from Kerbin's upper atmosphere</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0.0532543957</Parameter>
+    <Parameter name="sbv">0.899999976</Parameter>
+    <Parameter name="sci">11.0769234</Parameter>
+    <Parameter name="cap">11.6999998</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">recovery@KerbinSubOrbited</Parameter>
+    <Parameter name="title">Bergung eines Raumfahrzeugs nach einem suborbitalen Flug.</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">3.57627846E-06</Parameter>
+    <Parameter name="sbv">8</Parameter>
+    <Parameter name="sci">9.59996605</Parameter>
+    <Parameter name="cap">9.60000038</Parameter>
+  </Node>
+  <Node name="Tech">
+    <Parameter name="id">survivability</Parameter>
+    <Parameter name="state">Available</Parameter>
+    <Parameter name="cost">15</Parameter>
+    <Parameter name="part">ServiceBay.125</Parameter>
+    <Parameter name="part">parachuteRadial</Parameter>
+    <Parameter name="part">radialDrogue</Parameter>
+    <Parameter name="part">miniLandingLeg</Parameter>
+    <Parameter name="part">radPanelSm</Parameter>
+    <Parameter name="part">sensorBarometer</Parameter>
+    <Parameter name="part">HeatShield1</Parameter>
+    <Parameter name="part">HeatShield0</Parameter>
+    <Parameter name="part">groundedleg</Parameter>
+    <Parameter name="part">dmBathymetry</Parameter>
+  </Node>
+  <Node name="Tech">
+    <Parameter name="id">generalRocketry</Parameter>
+    <Parameter name="state">Available</Parameter>
+    <Parameter name="cost">20</Parameter>
+    <Parameter name="part">fuelTankSmall</Parameter>
+    <Parameter name="part">solidBooster1-1</Parameter>
+    <Parameter name="part">liquidEngine</Parameter>
+  </Node>
+  <Node name="Tech">
+    <Parameter name="id">stability</Parameter>
+    <Parameter name="state">Available</Parameter>
+    <Parameter name="cost">18</Parameter>
+    <Parameter name="part">radialDecoupler</Parameter>
+    <Parameter name="part">winglet</Parameter>
+    <Parameter name="part">noseCone</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">crewReport@KerbinFlyingLowWater</Parameter>
+    <Parameter name="title">Crew Report while flying over Kerbin's Water</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.699999988</Parameter>
+    <Parameter name="sci">3.5</Parameter>
+    <Parameter name="cap">3.5</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">temperatureScan@KerbinFlyingLowWater</Parameter>
+    <Parameter name="title">Temperature Scan while flying over Kerbin's Water</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.699999988</Parameter>
+    <Parameter name="sci">5.5999999</Parameter>
+    <Parameter name="cap">5.5999999</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">barometerScan@KerbinFlyingLow</Parameter>
+    <Parameter name="title">Atmosphärendruck-Scan beim Flug auf Kerbin</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.699999988</Parameter>
+    <Parameter name="sci">8.39999962</Parameter>
+    <Parameter name="cap">8.39999962</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">temperatureScan@KerbinFlyingLowGrasslands</Parameter>
+    <Parameter name="title">Temperature Scan while flying over Kerbin's Grasslands</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.699999988</Parameter>
+    <Parameter name="sci">5.5999999</Parameter>
+    <Parameter name="cap">5.5999999</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">crewReport@KerbinFlyingHigh</Parameter>
+    <Parameter name="title">Crewbericht aus der oberen Atmosphäre von Kerbin</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.899999976</Parameter>
+    <Parameter name="sci">4.5</Parameter>
+    <Parameter name="cap">4.5</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">barometerScan@KerbinFlyingHigh</Parameter>
+    <Parameter name="title">Atmosphärendruck-Scan aus der oberen Atmosphäre von Kerbin</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.899999976</Parameter>
+    <Parameter name="sci">10.7999992</Parameter>
+    <Parameter name="cap">10.7999992</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">barometerScan@KerbinInSpaceLow</Parameter>
+    <Parameter name="title">Atmospheric Pressure Scan while in space near Kerbin</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">1</Parameter>
+    <Parameter name="sci">12</Parameter>
+    <Parameter name="cap">12</Parameter>
+  </Node>
+  <Node name="Tech">
+    <Parameter name="id">advRocketry</Parameter>
+    <Parameter name="state">Available</Parameter>
+    <Parameter name="cost">45</Parameter>
+    <Parameter name="part">fuelTank</Parameter>
+    <Parameter name="part">radialLiquidEngine1-2</Parameter>
+    <Parameter name="part">liquidEngine3</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">recovery@KerbinOrbited</Parameter>
+    <Parameter name="title">Bergung eines Raumfahrzeugs, das in einer Umlaufbahn um Kerbin war.</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0.00462961197</Parameter>
+    <Parameter name="sbv">10</Parameter>
+    <Parameter name="sci">11.9444447</Parameter>
+    <Parameter name="cap">12</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">evaReport@KerbinSrfLandedLaunchPad</Parameter>
+    <Parameter name="title">EVA-Bericht von Startrampe</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.300000012</Parameter>
+    <Parameter name="sci">2.4000001</Parameter>
+    <Parameter name="cap">2.4000001</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">temperatureScan@KerbinSrfLandedLaunchPad</Parameter>
+    <Parameter name="title">Temperaturscan von Startrampe</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.300000012</Parameter>
+    <Parameter name="sci">2.4000001</Parameter>
+    <Parameter name="cap">2.4000001</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">mysteryGoo@KerbinSrfLandedLaunchPad</Parameter>
+    <Parameter name="title">Mysteriöser Schleim™-Beobachtung von Startrampe</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0.0028360195</Parameter>
+    <Parameter name="sbv">0.300000012</Parameter>
+    <Parameter name="sci">3.88893962</Parameter>
+    <Parameter name="cap">3.9000001</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">barometerScan@KerbinSrfLandedLaunchPad</Parameter>
+    <Parameter name="title">Atmosphärendruck-Scan von Startrampe</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.300000012</Parameter>
+    <Parameter name="sci">3.60000014</Parameter>
+    <Parameter name="cap">3.60000014</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">temperatureScan@KerbinFlyingHigh</Parameter>
+    <Parameter name="title">Temperaturscan aus der oberen Atmosphäre von Kerbin</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.899999976</Parameter>
+    <Parameter name="sci">7.19999981</Parameter>
+    <Parameter name="cap">7.19999981</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">crewReport@KerbinSrfSplashedWater</Parameter>
+    <Parameter name="title">Crewbericht von Kerbins Wasser</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.400000006</Parameter>
+    <Parameter name="sci">2</Parameter>
+    <Parameter name="cap">2</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">evaReport@KerbinSrfSplashedWater</Parameter>
+    <Parameter name="title">EVA-Bericht von Kerbins Wasser</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.400000006</Parameter>
+    <Parameter name="sci">3.20000005</Parameter>
+    <Parameter name="cap">3.20000005</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">temperatureScan@KerbinFlyingLowShores</Parameter>
+    <Parameter name="title">Temperaturscan Flug über Kerbins Küsten</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.699999988</Parameter>
+    <Parameter name="sci">5.5999999</Parameter>
+    <Parameter name="cap">5.5999999</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">temperatureScan@KerbinInSpaceHigh</Parameter>
+    <Parameter name="title">Temperaturscan im Weltraum hoch über Kerbin</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">1.5</Parameter>
+    <Parameter name="sci">12</Parameter>
+    <Parameter name="cap">12</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">barometerScan@KerbinInSpaceHigh</Parameter>
+    <Parameter name="title">Atmosphärendruck-Scan im Weltraum hoch über Kerbin</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">1.5</Parameter>
+    <Parameter name="sci">18</Parameter>
+    <Parameter name="cap">18</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">crewReport@KerbinFlyingLowGrasslands</Parameter>
+    <Parameter name="title">Crewbericht Flug über Kerbins Grasland</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.699999988</Parameter>
+    <Parameter name="sci">3.5</Parameter>
+    <Parameter name="cap">3.5</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">evaReport@KerbinSrfLandedGrasslands</Parameter>
+    <Parameter name="title">EVA-Bericht von Kerbins Grasland</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.300000012</Parameter>
+    <Parameter name="sci">2.4000001</Parameter>
+    <Parameter name="cap">2.4000001</Parameter>
+  </Node>
+  <Node name="Tech">
+    <Parameter name="id">basicScience</Parameter>
+    <Parameter name="state">Available</Parameter>
+    <Parameter name="cost">45</Parameter>
+    <Parameter name="part">US.1M110.Wedge.ScienceBay</Parameter>
+    <Parameter name="part">HighGainAntenna5</Parameter>
+    <Parameter name="part">radPanelLg</Parameter>
+    <Parameter name="part">radPanelEdge</Parameter>
+    <Parameter name="part">ScienceBox</Parameter>
+    <Parameter name="part">science.module</Parameter>
+    <Parameter name="part">batteryPack</Parameter>
+    <Parameter name="part">probeCoreSphere</Parameter>
+    <Parameter name="part">SCANsat.Scanner</Parameter>
+    <Parameter name="part">JSIPrimitiveExternalCamera</Parameter>
+    <Parameter name="part">hc.navcam</Parameter>
+    <Parameter name="part">hc.booster</Parameter>
+    <Parameter name="part">dmUSPresTemp</Parameter>
+    <Parameter name="part">dmUSScope</Parameter>
+    <Parameter name="part">dmscope</Parameter>
+  </Node>
+  <Node name="Tech">
+    <Parameter name="id">flightControl</Parameter>
+    <Parameter name="state">Available</Parameter>
+    <Parameter name="cost">45</Parameter>
+    <Parameter name="part">sasModule</Parameter>
+    <Parameter name="part">winglet3</Parameter>
+    <Parameter name="part">R8winglet</Parameter>
+    <Parameter name="part">mumech.MJ2.AR202</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">crewReport@KerbinSrfLandedLaunchPad</Parameter>
+    <Parameter name="title">Crewbericht von Startrampe</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.300000012</Parameter>
+    <Parameter name="sci">1.5</Parameter>
+    <Parameter name="cap">1.5</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">magScan@KerbinSrfLandedLaunchPad</Parameter>
+    <Parameter name="title">Magnetometer Scan von Startrampe</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.300000012</Parameter>
+    <Parameter name="sci">1.5</Parameter>
+    <Parameter name="cap">1.5</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">evaReport@KerbinFlyingHigh</Parameter>
+    <Parameter name="title">EVA-Bericht aus der oberen Atmosphäre von Kerbin</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.899999976</Parameter>
+    <Parameter name="sci">7.19999981</Parameter>
+    <Parameter name="cap">7.19999981</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">evaReport@KerbinInSpaceLowWater</Parameter>
+    <Parameter name="title">EVA-Bericht aus dem Weltraum direkt über Kerbins Wasser</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">1</Parameter>
+    <Parameter name="sci">8</Parameter>
+    <Parameter name="cap">8</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">scopeScan@KerbinInSpaceLowWater</Parameter>
+    <Parameter name="title">Orbital Telescope Observations aus dem Weltraum direkt über Kerbins Wasser</Parameter>
+    <Parameter name="dsc">3</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">1</Parameter>
+    <Parameter name="sci">6</Parameter>
+    <Parameter name="cap">6</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">scopeScan@KerbinInSpaceLowGrasslands</Parameter>
+    <Parameter name="title">Orbital Telescope Observations aus dem Weltraum direkt über Kerbins Grasland</Parameter>
+    <Parameter name="dsc">3</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">1</Parameter>
+    <Parameter name="sci">6</Parameter>
+    <Parameter name="cap">6</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">evaReport@KerbinInSpaceLowGrasslands</Parameter>
+    <Parameter name="title">EVA-Bericht aus dem Weltraum direkt über Kerbins Grasland</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">1</Parameter>
+    <Parameter name="sci">8</Parameter>
+    <Parameter name="cap">8</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">mysteryGoo@KerbinInSpaceHigh</Parameter>
+    <Parameter name="title">Mysteriöser Schleim™-Beobachtung im Weltraum hoch über Kerbin</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0.00283608073</Parameter>
+    <Parameter name="sbv">1.5</Parameter>
+    <Parameter name="sci">19.4446964</Parameter>
+    <Parameter name="cap">19.5</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">crewReport@KerbinInSpaceHigh</Parameter>
+    <Parameter name="title">Crewbericht im Weltraum hoch über Kerbin</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">1.5</Parameter>
+    <Parameter name="sci">7.5</Parameter>
+    <Parameter name="cap">7.5</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">magScan@KerbinInSpaceHigh</Parameter>
+    <Parameter name="title">Magnetometer Scan im Weltraum hoch über Kerbin</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">1.5</Parameter>
+    <Parameter name="sci">7.5</Parameter>
+    <Parameter name="cap">7.5</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">evaReport@KerbinInSpaceHigh</Parameter>
+    <Parameter name="title">EVA-Bericht im Weltraum hoch über Kerbin</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">1.5</Parameter>
+    <Parameter name="sci">12</Parameter>
+    <Parameter name="cap">12</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">scopeScan@KerbinInSpaceHigh</Parameter>
+    <Parameter name="title">Orbital Telescope Observations im Weltraum hoch über Kerbin</Parameter>
+    <Parameter name="dsc">3</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">1.5</Parameter>
+    <Parameter name="sci">9</Parameter>
+    <Parameter name="cap">9</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">mysteryGoo@MunInSpaceHigh</Parameter>
+    <Parameter name="title">Mysteriöser Schleim™-Beobachtung im Weltraum hoch über Mun</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0.00283600739</Parameter>
+    <Parameter name="sbv">2</Parameter>
+    <Parameter name="sci">25.9262638</Parameter>
+    <Parameter name="cap">26</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">magScan@MunInSpaceHigh</Parameter>
+    <Parameter name="title">Magnetometer Scan im Weltraum hoch über Mun</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">2</Parameter>
+    <Parameter name="sci">10</Parameter>
+    <Parameter name="cap">10</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">evaReport@MunInSpaceHigh</Parameter>
+    <Parameter name="title">EVA-Bericht im Weltraum hoch über Mun</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">2</Parameter>
+    <Parameter name="sci">16</Parameter>
+    <Parameter name="cap">16</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">crewReport@KerbinSrfLandedGrasslands</Parameter>
+    <Parameter name="title">Crewbericht von Kerbins Grasland</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.300000012</Parameter>
+    <Parameter name="sci">1.5</Parameter>
+    <Parameter name="cap">1.5</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">crewReport@MunInSpaceHigh</Parameter>
+    <Parameter name="title">Crewbericht im Weltraum hoch über Mun</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">2</Parameter>
+    <Parameter name="sci">10</Parameter>
+    <Parameter name="cap">10</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">scopeScan@KerbinInSpaceLowMountains</Parameter>
+    <Parameter name="title">Orbital Telescope Observations aus dem Weltraum direkt über Kerbins Berge</Parameter>
+    <Parameter name="dsc">3</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">1</Parameter>
+    <Parameter name="sci">6</Parameter>
+    <Parameter name="cap">6</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">evaReport@KerbinInSpaceLowHighlands</Parameter>
+    <Parameter name="title">EVA-Bericht aus dem Weltraum direkt über Kerbins Hochland</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">1</Parameter>
+    <Parameter name="sci">8</Parameter>
+    <Parameter name="cap">8</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">evaReport@KerbinInSpaceLowMountains</Parameter>
+    <Parameter name="title">EVA-Bericht aus dem Weltraum direkt über Kerbins Berge</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">1</Parameter>
+    <Parameter name="sci">8</Parameter>
+    <Parameter name="cap">8</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">evaReport@KerbinInSpaceLowShores</Parameter>
+    <Parameter name="title">EVA-Bericht aus dem Weltraum direkt über Kerbins Küsten</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">1</Parameter>
+    <Parameter name="sci">8</Parameter>
+    <Parameter name="cap">8</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">scopeScan@KerbinInSpaceLowHighlands</Parameter>
+    <Parameter name="title">Orbital Telescope Observations aus dem Weltraum direkt über Kerbins Hochland</Parameter>
+    <Parameter name="dsc">3</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">1</Parameter>
+    <Parameter name="sci">6</Parameter>
+    <Parameter name="cap">6</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">temperatureScan@KerbinSrfLandedGrasslands</Parameter>
+    <Parameter name="title">Temperaturscan von Kerbins Grasland</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.300000012</Parameter>
+    <Parameter name="sci">2.4000001</Parameter>
+    <Parameter name="cap">2.4000001</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">mysteryGoo@KerbinSrfLandedGrasslands</Parameter>
+    <Parameter name="title">Mysteriöser Schleim™-Beobachtung von Kerbins Grasland</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0.0028360195</Parameter>
+    <Parameter name="sbv">0.300000012</Parameter>
+    <Parameter name="sci">3.88893962</Parameter>
+    <Parameter name="cap">3.9000001</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">barometerScan@KerbinSrfLandedGrasslands</Parameter>
+    <Parameter name="title">Atmosphärendruck-Scan von Kerbins Grasland</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.300000012</Parameter>
+    <Parameter name="sci">3.60000014</Parameter>
+    <Parameter name="cap">3.60000014</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">magScan@KerbinSrfLandedGrasslands</Parameter>
+    <Parameter name="title">Magnetometer Scan von Kerbins Grasland</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.300000012</Parameter>
+    <Parameter name="sci">1.5</Parameter>
+    <Parameter name="cap">1.5</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">recovery@MunSubOrbited</Parameter>
+    <Parameter name="title">Bergung eines Raumfahrzeugs, das in einer suborbitalen Umlaufbahn über Mun war.</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0.000771601975</Parameter>
+    <Parameter name="sbv">20</Parameter>
+    <Parameter name="sci">23.9814816</Parameter>
+    <Parameter name="cap">24</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">scopeScan@MunInSpaceHigh</Parameter>
+    <Parameter name="title">Orbital Telescope Observations im Weltraum hoch über Mun</Parameter>
+    <Parameter name="dsc">3</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">2</Parameter>
+    <Parameter name="sci">12</Parameter>
+    <Parameter name="cap">12</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">barometerScan@MunInSpaceHigh</Parameter>
+    <Parameter name="title">Atmosphärendruck-Scan im Weltraum hoch über Mun</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">2</Parameter>
+    <Parameter name="sci">24</Parameter>
+    <Parameter name="cap">24</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">temperatureScan@MunInSpaceHigh</Parameter>
+    <Parameter name="title">Temperaturscan im Weltraum hoch über Mun</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">2</Parameter>
+    <Parameter name="sci">16</Parameter>
+    <Parameter name="cap">16</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">crewReport@KerbinFlyingLowSouthernIceShelf</Parameter>
+    <Parameter name="title">Crewbericht Flug über Kerbins Südliches Schelfeis</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.699999988</Parameter>
+    <Parameter name="sci">3.5</Parameter>
+    <Parameter name="cap">3.5</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">temperatureScan@KerbinFlyingLowSouthernIceShelf</Parameter>
+    <Parameter name="title">Temperaturscan Flug über Kerbins Südliches Schelfeis</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.699999988</Parameter>
+    <Parameter name="sci">5.5999999</Parameter>
+    <Parameter name="cap">5.5999999</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">temperatureScan@KerbinSrfLandedSouthernIceShelf</Parameter>
+    <Parameter name="title">Temperaturscan von Kerbins Südliches Schelfeis</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.300000012</Parameter>
+    <Parameter name="sci">2.4000001</Parameter>
+    <Parameter name="cap">2.4000001</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">barometerScan@KerbinSrfLandedSouthernIceShelf</Parameter>
+    <Parameter name="title">Atmosphärendruck-Scan von Kerbins Südliches Schelfeis</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.300000012</Parameter>
+    <Parameter name="sci">3.60000014</Parameter>
+    <Parameter name="cap">3.60000014</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">crewReport@KerbinSrfLandedSouthernIceShelf</Parameter>
+    <Parameter name="title">Crewbericht von Kerbins Südliches Schelfeis</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.300000012</Parameter>
+    <Parameter name="sci">1.5</Parameter>
+    <Parameter name="cap">1.5</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">mobileMaterialsLab@KerbinSrfLandedLaunchPad</Parameter>
+    <Parameter name="title">Materialuntersuchung von Startrampe</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">1</Parameter>
+    <Parameter name="sbv">0.300000012</Parameter>
+    <Parameter name="sci">0</Parameter>
+    <Parameter name="cap">9.60000038</Parameter>
+  </Node>
+  <Node name="Tech">
+    <Parameter name="id">advFlightControl</Parameter>
+    <Parameter name="state">Available</Parameter>
+    <Parameter name="cost">90</Parameter>
+    <Parameter name="part">DERP.ServiceRing</Parameter>
+    <Parameter name="part">RCSBlock</Parameter>
+    <Parameter name="part">linearRcs</Parameter>
+    <Parameter name="part">radialRCSTank</Parameter>
+    <Parameter name="part">landerCabinSmall</Parameter>
+    <Parameter name="part">advSasModule</Parameter>
+    <Parameter name="part">mumech.MJ2.AR202.features1</Parameter>
+    <Parameter name="part">dmUSMat</Parameter>
+  </Node>
+  <Node name="Tech">
+    <Parameter name="id">miniaturization</Parameter>
+    <Parameter name="state">Available</Parameter>
+    <Parameter name="cost">90</Parameter>
+    <Parameter name="part">ConstructionPort0</Parameter>
+    <Parameter name="part">dockingPort3</Parameter>
+    <Parameter name="part">stackSeparatorMini</Parameter>
+    <Parameter name="part">adapterSmallMiniTall</Parameter>
+    <Parameter name="part">adapterSmallMiniShort</Parameter>
+    <Parameter name="part">Separator.0</Parameter>
+    <Parameter name="part">dmUSMagBoom</Parameter>
+    <Parameter name="part">dmSIGINT.Small</Parameter>
+  </Node>
+  <Node name="Tech">
+    <Parameter name="id">electrics</Parameter>
+    <Parameter name="state">Available</Parameter>
+    <Parameter name="cost">90</Parameter>
+    <Parameter name="part">US.1R330.Wedge.Hydrogen</Parameter>
+    <Parameter name="part">US.1P110.Wedge.Fuelcell</Parameter>
+    <Parameter name="part">SafetyLight</Parameter>
+    <Parameter name="part">W485.SurfaceOmniLight</Parameter>
+    <Parameter name="part">W485.Surface4WayLight</Parameter>
+    <Parameter name="part">W485.SurfaceLight</Parameter>
+    <Parameter name="part">spotLight2</Parameter>
+    <Parameter name="part">spotLight1</Parameter>
+    <Parameter name="part">foldingRadSmall</Parameter>
+    <Parameter name="part">batteryBankMini</Parameter>
+    <Parameter name="part">solarPanels5</Parameter>
+    <Parameter name="part">probeCoreOcto</Parameter>
+    <Parameter name="part">solarpanel-static-truss-2</Parameter>
+    <Parameter name="part">solarpanel-static-truss-1</Parameter>
+    <Parameter name="part">rpwsAnt</Parameter>
+  </Node>
+  <Node name="Tech">
+    <Parameter name="id">generalConstruction</Parameter>
+    <Parameter name="state">Available</Parameter>
+    <Parameter name="cost">45</Parameter>
+    <Parameter name="part">US.1C15.Wedge.Hexacore</Parameter>
+    <Parameter name="part">launchClamp1</Parameter>
+    <Parameter name="part">largeAdapter</Parameter>
+    <Parameter name="part">decoupler1-2</Parameter>
+    <Parameter name="part">Mk1FuselageStructural</Parameter>
+    <Parameter name="part">Decoupler.2</Parameter>
+    <Parameter name="part">strutConnector</Parameter>
+    <Parameter name="part">MK1CrewCabin</Parameter>
+    <Parameter name="part">KIS.ContainerMount1</Parameter>
+    <Parameter name="part">KIS.Container1</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">mobileMaterialsLab@KerbinInSpaceLow</Parameter>
+    <Parameter name="title">Materialuntersuchung im Weltraum in der Nähe von Kerbin</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0.21875</Parameter>
+    <Parameter name="sbv">1</Parameter>
+    <Parameter name="sci">25</Parameter>
+    <Parameter name="cap">32</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">evaReport@KerbinInSpaceLowDeserts</Parameter>
+    <Parameter name="title">EVA-Bericht aus dem Weltraum direkt über Kerbins Wüsten</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">1</Parameter>
+    <Parameter name="sci">8</Parameter>
+    <Parameter name="cap">8</Parameter>
+  </Node>
+  <Node name="Tech">
+    <Parameter name="id">fuelSystems</Parameter>
+    <Parameter name="state">Available</Parameter>
+    <Parameter name="cost">90</Parameter>
+    <Parameter name="part">US.1R220.Wedge.Monoprop</Parameter>
+    <Parameter name="part">US.1R210.Wedge.Liquidfuel</Parameter>
+    <Parameter name="part">Rockomax8BW</Parameter>
+    <Parameter name="part">Rockomax32.BW</Parameter>
+    <Parameter name="part">Rockomax16.BW</Parameter>
+    <Parameter name="part">fuelTank4-2</Parameter>
+    <Parameter name="part">fuelTank1-2</Parameter>
+    <Parameter name="part">fuelTank2-2</Parameter>
+    <Parameter name="part">fuelTank.long</Parameter>
+    <Parameter name="part">fuelLine</Parameter>
+  </Node>
+  <Node name="Science">
+    <Parameter name="id">evaReport@KerbinFlyingLowGrasslands</Parameter>
+    <Parameter name="title">EVA-Bericht Flug über Kerbins Grasland</Parameter>
+    <Parameter name="dsc">1</Parameter>
+    <Parameter name="scv">0</Parameter>
+    <Parameter name="sbv">0.699999988</Parameter>
+    <Parameter name="sci">5.5999999</Parameter>
+    <Parameter name="cap">5.5999999</Parameter>
   </Node>
 </LMPConfigNodeToXML>

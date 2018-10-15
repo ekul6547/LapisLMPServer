@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<GameplaySettingsDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<GameplaySettingsDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <!--Allow Stock Vessels-->
   <AllowStockVessels>false</AllowStockVessels>
   <!--Auto-Hire Crewmemebers before Flight-->
@@ -33,7 +33,7 @@
   <!--Science Rewards-->
   <ScienceGainMultiplier>1</ScienceGainMultiplier>
   <!--Starting Funds-->
-  <StartingFunds>25000</StartingFunds>
+  <StartingFunds>50000</StartingFunds>
   <!--Starting Reputation-->
   <StartingReputation>0</StartingReputation>
   <!--Starting Science-->

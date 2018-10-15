@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<IntervalSettingsDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<IntervalSettingsDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <!--Interval in ms at which the client will send POSITION and FLIGHTSTATE updates of his vessel when other players are NEARBY. Decrease it if your clients have good network connection and you plan to do dogfights, although in that case consider using interpolation aswell-->
   <VesselUpdatesMsInterval>50</VesselUpdatesMsInterval>
   <!--Interval in ms at which the client will send POSITION and FLIGHTSTATE updates for vessels that are uncontrolled and nearby him. This interval is also applied used to send position updates of HIS OWN vessel when NOBODY is around-->

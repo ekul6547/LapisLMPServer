@@ -1,0 +1,78 @@
+name = Otfaela Kerman
+gender = Female
+type = Crew
+trait = Scientist
+brave = 0.831477106
+dumb = 0.920429945
+badS = False
+veteran = False
+tour = False
+state = Assigned
+inactive = False
+inactiveTimeEnd = 0
+gExperienced = 0
+outDueToG = False
+ToD = 1033238.0409421007
+idx = 0
+extraXP = 0
+suit = Default
+hero = False
+EVACHUTE
+{
+	name = ModuleEvaChute
+	isEnabled = True
+	chuteYawRateAtMaxSpeed = 1
+	chuteMaxSpeedForYawRate = 50
+	chuteYawRateAtMinSpeed = 1
+	chuteMinSpeedForYawRate = 1
+	chuteRollRate = 1
+	chutePitchRate = 1
+	chuteDefaultForwardPitch = 9
+	semiDeployedChuteForwardPitch = 25
+	chutePitchRateDivisorWhenTurning = 1
+	chuteRollRateDivisorWhenPitching = 1
+	chuteYawRateDivisorWhenPitching = 1
+	persistentState = STOWED
+	animTime = 0
+	minAirPressureToOpen = 0.0399999991
+	deployAltitude = 1000
+	spreadAngle = 7
+	automateSafeDeploy = 0
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		DeployAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		CutAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+CAREER_LOG
+{
+	flight = 1
+	0 = Die
+	0 = Suborbit,Kerbin
+	0 = ExitVessel,Kerbin
+	0 = Orbit,Kerbin
+	0 = BoardVessel,Kerbin
+	0 = Flight,Kerbin
+	0 = Land,Kerbin
+	0 = Recover
+}
+FLIGHT_LOG
+{
+	flight = 1
+	1 = Spawn
+}

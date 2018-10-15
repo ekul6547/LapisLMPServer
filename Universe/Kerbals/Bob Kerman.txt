@@ -12,14 +12,106 @@ inactive = False
 inactiveTimeEnd = 0
 gExperienced = 0
 outDueToG = False
-ToD = 0
+ToD = 678292.23621654359
 idx = -1
 extraXP = 0
+suit = Default
+hero = False
+EVACHUTE
+{
+	name = ModuleEvaChute
+	isEnabled = True
+	chuteYawRateAtMaxSpeed = 1
+	chuteMaxSpeedForYawRate = 50
+	chuteYawRateAtMinSpeed = 1
+	chuteMinSpeedForYawRate = 1
+	chuteRollRate = 1
+	chutePitchRate = 1
+	chuteDefaultForwardPitch = 9
+	semiDeployedChuteForwardPitch = 25
+	chutePitchRateDivisorWhenTurning = 1
+	chuteRollRateDivisorWhenPitching = 1
+	chuteYawRateDivisorWhenPitching = 1
+	persistentState = STOWED
+	animTime = 0
+	minAirPressureToOpen = 0.0399999991
+	deployAltitude = 1000
+	spreadAngle = 7
+	automateSafeDeploy = 0
+	stagingEnabled = True
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		DeployAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		CutAction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
 CAREER_LOG
 {
-	flight = 0
+	flight = 10
+	0 = Land,Kerbin
+	0 = Flight,Kerbin
+	0 = ExitVessel,Kerbin
+	0 = Recover
+	0 = Land,Kerbin
+	0 = Recover
+	1 = Flight,Kerbin
+	1 = Suborbit,Kerbin
+	1 = Land,Kerbin
+	1 = ExitVessel,Kerbin
+	1 = BoardVessel,Kerbin
+	1 = Recover
+	2 = Recover
+	1 = Flight,Kerbin
+	1 = Land,Kerbin
+	1 = Recover
+	3 = ExitVessel,Kerbin
+	3 = BoardVessel,Kerbin
+	3 = Suborbit,Kerbin
+	3 = Orbit,Kerbin
+	3 = Flyby,Mun
+	3 = Escape,Mun
+	3 = Die
+	4 = ExitVessel,Mun
+	4 = Escape,Mun
+	4 = BoardVessel,Mun
+	4 = Die
+	5 = Die
+	2 = ExitVessel,Kerbin
+	2 = Land,Kerbin
+	2 = BoardVessel,Kerbin
+	2 = Recover
+	6 = Suborbit,Kerbin
+	6 = Orbit,Kerbin
+	6 = ExitVessel,Kerbin
+	6 = BoardVessel,Kerbin
+	6 = Flight,Kerbin
+	6 = Flyby,Mun
+	6 = Escape,Mun
+	6 = Flyby,Kerbin
+	6 = Land,Kerbin
+	6 = Recover
+	7 = Recover
+	8 = Recover
+	9 = ExitVessel,Kerbin
+	9 = Land,Kerbin
+	9 = Flight,Kerbin
+	9 = Recover
 }
 FLIGHT_LOG
 {
-	flight = 0
+	flight = 10
 }

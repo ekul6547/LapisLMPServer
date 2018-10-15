@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LMPConfigNodeToXML>
+  <Parameter name="name">contractModifierScenario</Parameter>
+  <Parameter name="scene">7, 6, 8, 5</Parameter>
+  <Parameter name="allowZero">False</Parameter>
+  <Parameter name="alterActive">False</Parameter>
+  <Parameter name="stockToolbar">True</Parameter>
+  <Parameter name="warnedAlterActive">False</Parameter>
+  <Parameter name="warnedToolbar">False</Parameter>
+  <Parameter name="warnedZero">False</Parameter>
+  <Node name="Contract_Types">
+    <Node name="Contract_Type">
+      <Parameter name="TypeName">GlobalSettings</Parameter>
+      <Parameter name="ContractValues">1.000,1.000,1.000,1.000,1.000,1.000,1.000,10.0,10.0</Parameter>
+    </Node>
+    <Node name="Contract_Type">
+      <Parameter name="TypeName">CollectScience</Parameter>
+      <Parameter name="ContractValues">1.000,1.000,1.000,1.000,1.000,1.000,1.000,10.0,10.0</Parameter>
+    </Node>
+    <Node name="Contract_Type">
+      <Parameter name="TypeName">GrandTour</Parameter>
+      <Parameter name="ContractValues">1.000,1.000,1.000,1.000,1.000,1.000,1.000,10.0,10.0</Parameter>
+    </Node>
+    <Node name="Contract_Type">
+      <Parameter name="TypeName">PartTest</Parameter>
+      <Parameter name="ContractValues">1.000,1.000,1.000,1.000,1.000,1.000,1.000,10.0,10.0</Parameter>
+    </Node>
+    <Node name="Contract_Type">
+      <Parameter name="TypeName">PlantFlag</Parameter>
+      <Parameter name="ContractValues">1.000,1.000,1.000,1.000,1.000,1.000,1.000,10.0,10.0</Parameter>
+    </Node>
+    <Node name="Contract_Type">
+      <Parameter name="TypeName">RecoverAsset</Parameter>
+      <Parameter name="ContractValues">1.000,1.000,1.000,1.000,1.000,1.000,1.000,10.0,10.0</Parameter>
+    </Node>
+    <Node name="Contract_Type">
+      <Parameter name="TypeName">ARMContract</Parameter>
+      <Parameter name="ContractValues">1.000,1.000,1.000,1.000,1.000,1.000,1.000,10.0,10.0</Parameter>
+    </Node>
+    <Node name="Contract_Type">
+      <Parameter name="TypeName">BaseContract</Parameter>
+      <Parameter name="ContractValues">1.000,1.000,1.000,1.000,1.000,1.000,1.000,10.0,10.0</Parameter>
+    </Node>
+    <Node name="Contract_Type">
+      <Parameter name="TypeName">ExplorationContract</Parameter>
+      <Parameter name="ContractValues">1.000,1.000,1.000,1.000,1.000,1.000,1.000,10.0,10.0</Parameter>
+    </Node>
+    <Node name="Contract_Type">
+      <Parameter name="TypeName">ISRUContract</Parameter>
+      <Parameter name="ContractValues">1.000,1.000,1.000,1.000,1.000,1.000,1.000,10.0,10.0</Parameter>
+    </Node>
+    <Node name="Contract_Type">
+      <Parameter name="TypeName">SatelliteContract</Parameter>
+      <Parameter name="ContractValues">1.000,1.000,1.000,1.000,1.000,1.000,1.000,10.0,10.0</Parameter>
+    </Node>
+    <Node name="Contract_Type">
+      <Parameter name="TypeName">StationContract</Parameter>
+      <Parameter name="ContractValues">1.000,1.000,1.000,1.000,1.000,1.000,1.000,10.0,10.0</Parameter>
+    </Node>
+    <Node name="Contract_Type">
+      <Parameter name="TypeName">SurveyContract</Parameter>
+      <Parameter name="ContractValues">1.000,1.000,1.000,1.000,1.000,1.000,1.000,10.0,10.0</Parameter>
+    </Node>
+    <Node name="Contract_Type">
+      <Parameter name="TypeName">TourismContract</Parameter>
+      <Parameter name="ContractValues">1.000,1.000,1.000,1.000,1.000,1.000,1.000,10.0,10.0</Parameter>
+    </Node>
+    <Node name="Contract_Type">
+      <Parameter name="TypeName">SentinelContract</Parameter>
+      <Parameter name="ContractValues">1.000,1.000,1.000,1.000,1.000,1.000,1.000,10.0,10.0</Parameter>
+    </Node>
+    <Node name="Contract_Type">
+      <Parameter name="TypeName">DMAnomalyContract</Parameter>
+      <Parameter name="ContractValues">1.000,1.000,1.000,1.000,1.000,1.000,1.000,10.0,10.0</Parameter>
+    </Node>
+    <Node name="Contract_Type">
+      <Parameter name="TypeName">DMReconContract</Parameter>
+      <Parameter name="ContractValues">1.000,1.000,1.000,1.000,1.000,1.000,1.000,10.0,10.0</Parameter>
+    </Node>
+    <Node name="Contract_Type">
+      <Parameter name="TypeName">DMMagneticSurveyContract</Parameter>
+      <Parameter name="ContractValues">1.000,1.000,1.000,1.000,1.000,1.000,1.000,10.0,10.0</Parameter>
+    </Node>
+    <Node name="Contract_Type">
+      <Parameter name="TypeName">DMSurveyContract</Parameter>
+      <Parameter name="ContractValues">1.000,1.000,1.000,1.000,1.000,1.000,1.000,10.0,10.0</Parameter>
+    </Node>
+    <Node name="Contract_Type">
+      <Parameter name="TypeName">DMAsteroidSurveyContract</Parameter>
+      <Parameter name="ContractValues">1.000,1.000,1.000,1.000,1.000,1.000,1.000,10.0,10.0</Parameter>
+    </Node>
+    <Node name="Contract_Type">
+      <Parameter name="TypeName">StnSciContract</Parameter>
+      <Parameter name="ContractValues">1.000,1.000,1.000,1.000,1.000,1.000,1.000,10.0,10.0</Parameter>
+    </Node>
+  </Node>
+  <Node name="Parameter_Types">
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">GlobalSettings</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">AcquireCrew</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">AcquirePart</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">CollectScience</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">EnterOrbit</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">EnterSOI</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">KerbalDeaths</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">LandOnBody</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">PartTest</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">PlantFlag</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">ReachAltitudeEnvelope</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">ReachBiome</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">ReachDestination</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">ReachFlightEnvelope</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">ReachSituation</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">ReachSpeedEnvelope</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">RecoverKerbal</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">RecoverPart</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">AsteroidParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">CrewCapacityParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">CrewTraitParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">KerbalDestinationParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">KerbalGeeAdventureParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">KerbalTourParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">LocationAndSituationParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">MobileBaseParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">PartRequestParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">ProgressTrackingParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">ResourceExtractionParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">ResourcePossessionParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">SpecificOrbitParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">SpecificVesselParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">StabilityParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">StationaryPointParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">SurveyWaypointParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">VesselDestinationParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">VesselSystemsParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">SentinelParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">DMCompleteParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">DMPartRequestParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">DMSpecificOrbitParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">DMAnomalyParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">DMAsteroidParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">DMCollectScience</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">DMLongOrbitParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">DMOrbitalParameters</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">StnSciParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">NewPodParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">DoExperimentParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+    <Node name="Parameter_Type">
+      <Parameter name="TypeName">ReturnExperimentParameter</Parameter>
+      <Parameter name="ParameterValues">1.000,1.000,1.000,1.000,1.000</Parameter>
+    </Node>
+  </Node>
+</LMPConfigNodeToXML>

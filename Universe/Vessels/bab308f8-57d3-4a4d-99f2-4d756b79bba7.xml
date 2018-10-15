@@ -1,0 +1,2034 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LMPConfigNodeToXML>
+  <Parameter name="pid">bab308f857d34a4d99f24d756b79bba7</Parameter>
+  <Parameter name="persistentId">2833784286</Parameter>
+  <Parameter name="name">Smirnoff 2</Parameter>
+  <Parameter name="type">Ship</Parameter>
+  <Parameter name="sit">LANDED</Parameter>
+  <Parameter name="landed">True</Parameter>
+  <Parameter name="skipGroundPositioning">True</Parameter>
+  <Parameter name="vesselSpawning">False</Parameter>
+  <Parameter name="launchedFrom">LaunchPad</Parameter>
+  <Parameter name="landedAt"></Parameter>
+  <Parameter name="displaylandedAt"></Parameter>
+  <Parameter name="splashed">False</Parameter>
+  <Parameter name="met">523427.85108213127</Parameter>
+  <Parameter name="lct">537315.79006590042</Parameter>
+  <Parameter name="lastUT">1060743.6611480317</Parameter>
+  <Parameter name="distanceTraveled">7093685.5276313173</Parameter>
+  <Parameter name="root">0</Parameter>
+  <Parameter name="lat">46.410690406384944</Parameter>
+  <Parameter name="lon">79.134168916164285</Parameter>
+  <Parameter name="alt">205.48389973782469</Parameter>
+  <Parameter name="hgt">0.697085619</Parameter>
+  <Parameter name="nrm">0.169782728,0.921603739,-0.349027276</Parameter>
+  <Parameter name="rot">-0.459188908,0.458331198,-0.000983127626,-0.760971129</Parameter>
+  <Parameter name="CoM">-0.00835483707,0.0561950281,-0.013829466</Parameter>
+  <Parameter name="stg">0</Parameter>
+  <Parameter name="prst">False</Parameter>
+  <Parameter name="ref">1068872999</Parameter>
+  <Parameter name="ctrl">False</Parameter>
+  <Parameter name="PQSMin">2</Parameter>
+  <Parameter name="PQSMax">10</Parameter>
+  <Parameter name="cPch">0.2</Parameter>
+  <Parameter name="cHdg">0.3</Parameter>
+  <Parameter name="cMod">0</Parameter>
+  <Node name="ORBIT">
+    <Parameter name="SMA">300474.70227254945</Parameter>
+    <Parameter name="ECC">0.99752435432369435</Parameter>
+    <Parameter name="INC">46.410742630858188</Parameter>
+    <Parameter name="LPE">270.0746512940301</Parameter>
+    <Parameter name="LAN">159.57795893061063</Parameter>
+    <Parameter name="MNA">-3.1415913947192897</Parameter>
+    <Parameter name="EPH">1060743.6411480317</Parameter>
+    <Parameter name="REF">1</Parameter>
+  </Node>
+  <Node name="PART">
+    <Parameter name="name">kv2Pod</Parameter>
+    <Parameter name="cid">4288845588</Parameter>
+    <Parameter name="uid">1068872999</Parameter>
+    <Parameter name="mid">32952735</Parameter>
+    <Parameter name="persistentId">2532240121</Parameter>
+    <Parameter name="launchID">4</Parameter>
+    <Parameter name="parent">0</Parameter>
+    <Parameter name="position">0,0,0</Parameter>
+    <Parameter name="rotation">0,0,0,1</Parameter>
+    <Parameter name="mirror">1,1,1</Parameter>
+    <Parameter name="symMethod">Radial</Parameter>
+    <Parameter name="istg">0</Parameter>
+    <Parameter name="resPri">0</Parameter>
+    <Parameter name="dstg">0</Parameter>
+    <Parameter name="sqor">0</Parameter>
+    <Parameter name="sepI">0</Parameter>
+    <Parameter name="sidx">0</Parameter>
+    <Parameter name="attm">0</Parameter>
+    <Parameter name="srfN">, -1</Parameter>
+    <Parameter name="attN">top, 8</Parameter>
+    <Parameter name="attN">bottom, -1</Parameter>
+    <Parameter name="mass">1.5</Parameter>
+    <Parameter name="shielded">False</Parameter>
+    <Parameter name="temp">257.91628995856769</Parameter>
+    <Parameter name="tempExt">258.287201008772</Parameter>
+    <Parameter name="tempExtUnexp">258.28700696686866</Parameter>
+    <Parameter name="expt">0.5</Parameter>
+    <Parameter name="state">1</Parameter>
+    <Parameter name="PreFailState">0</Parameter>
+    <Parameter name="attached">True</Parameter>
+    <Parameter name="autostrutMode">Off</Parameter>
+    <Parameter name="rigidAttachment">False</Parameter>
+    <Parameter name="flag">Squad/Flags/default</Parameter>
+    <Parameter name="rTrf">kv2Pod (Smirnoff 2)</Parameter>
+    <Parameter name="modCost">0</Parameter>
+    <Node name="EVENTS" />
+    <Node name="ACTIONS" />
+    <Node name="PARTDATA" />
+    <Node name="MODULE">
+      <Parameter name="name">ModuleCommand</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="hibernation">False</Parameter>
+      <Parameter name="hibernateOnWarp">False</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="MakeReferenceToggle">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="HibernateToggle">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="active">False</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleAnchoredDecoupler</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="ejectionForcePercent">100</Parameter>
+      <Parameter name="isDecoupled">True</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="DecoupleAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleScienceExperiment</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="Deployed">True</Parameter>
+      <Parameter name="Inoperable">False</Parameter>
+      <Parameter name="cooldownToGo">0</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="DeployAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="ResetAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">5</Parameter>
+        <Parameter name="subjectID">crewReport@KerbinSrfLandedGrasslands</Parameter>
+        <Parameter name="xmit">1</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">Crewbericht von Kerbins Grasland</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">1068872999</Parameter>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleScienceContainer</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="CollectAllAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">8</Parameter>
+        <Parameter name="subjectID">evaReport@KerbinSrfLandedGrasslands</Parameter>
+        <Parameter name="xmit">0</Parameter>
+        <Parameter name="xmitBonus">0</Parameter>
+        <Parameter name="title">EVA-Bericht von Kerbins Grasland</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">1068872999</Parameter>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleDataTransmitter</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="xmitIncomplete">False</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Parameter name="canComm">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="StartTransmissionAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="active">False</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleAblator</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="nominalAmountRecip">0.050000000000000003</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS" />
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleColorChanger</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="animState">False</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="ToggleAction">
+          <Parameter name="actionGroup">Light</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleColorChanger</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="animState">False</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="ToggleAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="active">False</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleConductionMultiplier</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS" />
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleLogisticsConsumer</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="lastCheck">1060743.3611480314</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS" />
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">SCANRPMStorage</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS" />
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">MechJebCore</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="running">True</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="OnOrbitProgradeAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="OnOrbitRetrogradeAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="OnOrbitNormalAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="OnOrbitAntinormalAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="OnOrbitRadialInAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="OnOrbitRadialOutAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="OnKillRotationAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="OnDeactivateSmartASSAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="OnPanicAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="OnTranslatronOffAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="OnTranslatronKeepVertAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="OnTranslatronZeroSpeedAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="OnTranslatronPlusOneSpeedAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="OnTranslatronMinusOneSpeedAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="OnTranslatronToggleHSAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="OnAscentAPToggleAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="MechJebLocalSettings">
+        <Node name="MechJebModuleMenu">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleAirplaneAutopilot">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleAirplaneGuidance">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleAscentAutopilot">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleAscentClassic">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleAscentClassicMenu">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleAscentGT">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleAscentGTMenu">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleAscentGuidance">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs">unmannedTech</Parameter>
+        </Node>
+        <Node name="MechJebModuleAscentNavBall">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleAscentPEG">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleAscentPEGMenu">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleAttitudeAdjustment">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs">advFlightControl</Parameter>
+        </Node>
+        <Node name="MechJebModuleCustomWindowEditor">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs">flightControl</Parameter>
+        </Node>
+        <Node name="MechJebModuleDebugArrows">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleDockingAutopilot">
+          <Parameter name="forceRol">False</Parameter>
+          <Parameter name="overrideSafeDistance">False</Parameter>
+          <Parameter name="overrideTargetSize">False</Parameter>
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+          <Node name="rol">
+            <Parameter name="_val">0</Parameter>
+            <Parameter name="_text">0</Parameter>
+          </Node>
+        </Node>
+        <Node name="MechJebModuleDockingGuidance">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs">advUnmanned</Parameter>
+        </Node>
+        <Node name="MechJebModuleInfoItems">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleLandingAutopilot">
+          <Parameter name="deployGears">True</Parameter>
+          <Parameter name="deployChutes">True</Parameter>
+          <Parameter name="rcsAdjustment">True</Parameter>
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+          <Node name="touchdownSpeed">
+            <Parameter name="_val">0.5</Parameter>
+            <Parameter name="_text">0.5</Parameter>
+          </Node>
+          <Node name="limitGearsStage">
+            <Parameter name="val">0</Parameter>
+            <Parameter name="_text">0</Parameter>
+          </Node>
+          <Node name="limitChutesStage">
+            <Parameter name="val">0</Parameter>
+            <Parameter name="_text">0</Parameter>
+          </Node>
+        </Node>
+        <Node name="MechJebModuleLandingGuidance">
+          <Parameter name="landingSiteIdx">0</Parameter>
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs">unmannedTech</Parameter>
+        </Node>
+        <Node name="MechJebModuleLandingPredictions">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleManeuverPlanner">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs">advFlightControl</Parameter>
+        </Node>
+        <Node name="MechJebModuleNodeEditor">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs">advFlightControl</Parameter>
+        </Node>
+        <Node name="MechJebModuleNodeExecutor">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleRCSBalancerWindow">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs">advFlightControl</Parameter>
+        </Node>
+        <Node name="MechJebModuleRendezvousAutopilot">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleRendezvousAutopilotWindow">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs">advUnmanned</Parameter>
+        </Node>
+        <Node name="MechJebModuleRendezvousGuidance">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs">advUnmanned</Parameter>
+        </Node>
+        <Node name="MechJebModuleRoverController">
+          <Parameter name="ControlHeading">False</Parameter>
+          <Parameter name="ControlSpeed">False</Parameter>
+          <Parameter name="BrakeOnEject">False</Parameter>
+          <Parameter name="BrakeOnEnergyDepletion">False</Parameter>
+          <Parameter name="WarpToDaylight">False</Parameter>
+          <Parameter name="StabilityControl">False</Parameter>
+          <Parameter name="LimitAcceleration">False</Parameter>
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+          <Node name="heading">
+            <Parameter name="_val">0</Parameter>
+            <Parameter name="_text">0</Parameter>
+          </Node>
+          <Node name="speed">
+            <Parameter name="_val">10</Parameter>
+            <Parameter name="_text">10</Parameter>
+          </Node>
+        </Node>
+        <Node name="MechJebModuleRoverWindow">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs">fieldScience</Parameter>
+        </Node>
+        <Node name="MechJebModuleScript">
+          <Parameter name="minifiedGUI">False</Parameter>
+          <Parameter name="selectedSlot">0</Parameter>
+          <Parameter name="selectedMemorySlotType">0</Parameter>
+          <Parameter name="vesselSaveName">Smirnoff 2</Parameter>
+          <Parameter name="activeSavepoint">-1</Parameter>
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleSettings">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleSmartASS">
+          <Parameter name="mode">ORBITAL</Parameter>
+          <Parameter name="target">OFF</Parameter>
+          <Parameter name="advReference">INERTIAL</Parameter>
+          <Parameter name="advDirection">FORWARD</Parameter>
+          <Parameter name="forceRol">False</Parameter>
+          <Parameter name="forcePitch">True</Parameter>
+          <Parameter name="forceYaw">True</Parameter>
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs">flightControl</Parameter>
+          <Node name="srfHdg">
+            <Parameter name="_val">90</Parameter>
+            <Parameter name="_text">90</Parameter>
+          </Node>
+          <Node name="srfPit">
+            <Parameter name="_val">90</Parameter>
+            <Parameter name="_text">90</Parameter>
+          </Node>
+          <Node name="srfRol">
+            <Parameter name="_val">0</Parameter>
+            <Parameter name="_text">0</Parameter>
+          </Node>
+          <Node name="srfVelYaw">
+            <Parameter name="_val">0</Parameter>
+            <Parameter name="_text">0</Parameter>
+          </Node>
+          <Node name="srfVelPit">
+            <Parameter name="_val">0</Parameter>
+            <Parameter name="_text">0</Parameter>
+          </Node>
+          <Node name="srfVelRol">
+            <Parameter name="_val">0</Parameter>
+            <Parameter name="_text">0</Parameter>
+          </Node>
+          <Node name="rol">
+            <Parameter name="_val">0</Parameter>
+            <Parameter name="_text">0</Parameter>
+          </Node>
+        </Node>
+        <Node name="MechJebModuleSmartRcs">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleSpaceplaneAutopilot">
+          <Parameter name="bBreakAsSoonAsLanded">False</Parameter>
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+          <Node name="glideslope">
+            <Parameter name="_val">3</Parameter>
+            <Parameter name="_text">3</Parameter>
+          </Node>
+          <Node name="approachSpeed">
+            <Parameter name="_val">80</Parameter>
+            <Parameter name="_text">80</Parameter>
+          </Node>
+          <Node name="touchdownSpeed">
+            <Parameter name="_val">60</Parameter>
+            <Parameter name="_text">60</Parameter>
+          </Node>
+          <Node name="maximumSafeBankAngle">
+            <Parameter name="_val">25</Parameter>
+            <Parameter name="_text">25</Parameter>
+          </Node>
+        </Node>
+        <Node name="MechJebModuleSpaceplaneGuidance">
+          <Parameter name="runwayIndex">0</Parameter>
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs">unmannedTech</Parameter>
+        </Node>
+        <Node name="MechJebModuleStageStats">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleTargetController">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleThrustWindow">
+          <Parameter name="autostageSavedState">False</Parameter>
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs">advFlightControl</Parameter>
+        </Node>
+        <Node name="MechJebModuleTranslatron">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs">advFlightControl</Parameter>
+          <Node name="trans_spd">
+            <Parameter name="_val">0</Parameter>
+            <Parameter name="_text">0</Parameter>
+          </Node>
+        </Node>
+        <Node name="MechJebModuleWarpHelper">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs">advFlightControl</Parameter>
+          <Node name="phaseAngle">
+            <Parameter name="_val">0</Parameter>
+            <Parameter name="_text">0</Parameter>
+          </Node>
+        </Node>
+        <Node name="MechJebModuleWaypointWindow">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleWaypointHelpWindow">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="ModExtensionDemo">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleCustomInfoWindow" />
+        <Node name="MechJebModuleCustomInfoWindow" />
+        <Node name="MechJebModuleCustomInfoWindow" />
+        <Node name="MechJebModuleCustomInfoWindow" />
+        <Node name="MechJebModuleWarpController">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleDeployableAntennaController">
+          <Parameter name="prev_shouldDeploy">False</Parameter>
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleSolarPanelController">
+          <Parameter name="prev_shouldDeploy">False</Parameter>
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleThrustController">
+          <Parameter name="limitThrottle">False</Parameter>
+          <Parameter name="limiterMinThrottle">False</Parameter>
+          <Parameter name="electricThrottle">False</Parameter>
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+          <Node name="maxThrottle">
+            <Parameter name="_val">1</Parameter>
+            <Parameter name="_text">100</Parameter>
+          </Node>
+          <Node name="minThrottle">
+            <Parameter name="_val">0.050000000000000003</Parameter>
+            <Parameter name="_text">5</Parameter>
+          </Node>
+          <Node name="electricThrottleLo">
+            <Parameter name="_val">0.050000000000000003</Parameter>
+            <Parameter name="_text">5</Parameter>
+          </Node>
+          <Node name="electricThrottleHi">
+            <Parameter name="_val">0.14999999999999999</Parameter>
+            <Parameter name="_text">15</Parameter>
+          </Node>
+        </Node>
+        <Node name="MechJebModuleRCSController">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+          <Node name="Tf">
+            <Parameter name="_val">1</Parameter>
+            <Parameter name="_text">1</Parameter>
+          </Node>
+          <Node name="Kp">
+            <Parameter name="_val">0.125</Parameter>
+            <Parameter name="_text">0.125</Parameter>
+          </Node>
+          <Node name="Ki">
+            <Parameter name="_val">0.070000000000000007</Parameter>
+            <Parameter name="_text">0.07</Parameter>
+          </Node>
+          <Node name="Kd">
+            <Parameter name="_val">0.53000000000000003</Parameter>
+            <Parameter name="_text">0.53</Parameter>
+          </Node>
+        </Node>
+        <Node name="MechJebModuleRCSBalancer">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleAttitudeController">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+          <Node name="MJAttitudeController" />
+          <Node name="KosAttitudeController" />
+          <Node name="HybridController" />
+        </Node>
+        <Node name="MechJebModuleStagingController">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleFlightRecorder">
+          <Parameter name="markUT">537315.81006590044</Parameter>
+          <Parameter name="deltaVExpended">NaN</Parameter>
+          <Parameter name="dragLosses">4597.3025914018372</Parameter>
+          <Parameter name="gravityLosses">4265.4951621118626</Parameter>
+          <Parameter name="steeringLosses">NaN</Parameter>
+          <Parameter name="markLAN">8.3386782646179203</Parameter>
+          <Parameter name="markLatitude">-0.097205750808613794</Parameter>
+          <Parameter name="markLongitude">-74.557614058112591</Parameter>
+          <Parameter name="markAltitude">75.688400174875284</Parameter>
+          <Parameter name="markBodyIndex">1</Parameter>
+          <Parameter name="maxDragGees">4.5415080146142444</Parameter>
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+        <Node name="MechJebModuleFlightRecorderGraph">
+          <Parameter name="unlockParts"></Parameter>
+          <Parameter name="unlockTechs"></Parameter>
+        </Node>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">FlightEngineerModule</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS" />
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleTripLogger</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS" />
+      <Node name="Log">
+        <Parameter name="flight">0</Parameter>
+        <Parameter name="0">Flight,Kerbin</Parameter>
+        <Parameter name="0">Suborbit,Kerbin</Parameter>
+        <Parameter name="0">Orbit,Kerbin</Parameter>
+        <Parameter name="0">Flyby,Mun</Parameter>
+        <Parameter name="0">Escape,Mun</Parameter>
+        <Parameter name="0">Orbit,Mun</Parameter>
+        <Parameter name="0">Suborbit,Mun</Parameter>
+        <Parameter name="0">Flyby,Kerbin</Parameter>
+        <Parameter name="0">Land,Kerbin</Parameter>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleKISInventory</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="invName"></Parameter>
+      <Parameter name="helmetEquipped">True</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS" />
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleKISInventory</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="invName"></Parameter>
+      <Parameter name="helmetEquipped">True</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS" />
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="RESOURCE">
+      <Parameter name="name">ElectricCharge</Parameter>
+      <Parameter name="amount">15.302200529258698</Parameter>
+      <Parameter name="maxAmount">50</Parameter>
+      <Parameter name="flowState">True</Parameter>
+      <Parameter name="isTweakable">True</Parameter>
+      <Parameter name="hideFlow">False</Parameter>
+      <Parameter name="isVisible">True</Parameter>
+      <Parameter name="flowMode">Both</Parameter>
+    </Node>
+    <Node name="RESOURCE">
+      <Parameter name="name">Ablator</Parameter>
+      <Parameter name="amount">19.876460705628162</Parameter>
+      <Parameter name="maxAmount">20</Parameter>
+      <Parameter name="flowState">True</Parameter>
+      <Parameter name="isTweakable">True</Parameter>
+      <Parameter name="hideFlow">False</Parameter>
+      <Parameter name="isVisible">True</Parameter>
+      <Parameter name="flowMode">Both</Parameter>
+    </Node>
+  </Node>
+  <Node name="PART">
+    <Parameter name="name">dmBathymetry</Parameter>
+    <Parameter name="cid">4288818032</Parameter>
+    <Parameter name="uid">501873837</Parameter>
+    <Parameter name="mid">32952735</Parameter>
+    <Parameter name="persistentId">1552998911</Parameter>
+    <Parameter name="launchID">4</Parameter>
+    <Parameter name="parent">0</Parameter>
+    <Parameter name="position">-1.0688225030899048,0.250274658203125,2.7939677238464355E-08</Parameter>
+    <Parameter name="rotation">0.488112062,-0.511611819,0.488112122,0.51161176</Parameter>
+    <Parameter name="mirror">1,1,1</Parameter>
+    <Parameter name="symMethod">Radial</Parameter>
+    <Parameter name="istg">0</Parameter>
+    <Parameter name="resPri">0</Parameter>
+    <Parameter name="dstg">1</Parameter>
+    <Parameter name="sqor">-1</Parameter>
+    <Parameter name="sepI">0</Parameter>
+    <Parameter name="sidx">-1</Parameter>
+    <Parameter name="attm">1</Parameter>
+    <Parameter name="srfN">srfAttach, 0</Parameter>
+    <Parameter name="mass">0.00999999978</Parameter>
+    <Parameter name="shielded">False</Parameter>
+    <Parameter name="temp">258.03716941633945</Parameter>
+    <Parameter name="tempExt">258.2806661275265</Parameter>
+    <Parameter name="tempExtUnexp">258.28045742376929</Parameter>
+    <Parameter name="expt">0.5</Parameter>
+    <Parameter name="state">1</Parameter>
+    <Parameter name="PreFailState">0</Parameter>
+    <Parameter name="attached">True</Parameter>
+    <Parameter name="autostrutMode">Off</Parameter>
+    <Parameter name="rigidAttachment">False</Parameter>
+    <Parameter name="flag">Squad/Flags/default</Parameter>
+    <Parameter name="rTrf">dmBathymetry</Parameter>
+    <Parameter name="modCost">0</Parameter>
+    <Node name="EVENTS" />
+    <Node name="ACTIONS" />
+    <Node name="PARTDATA" />
+    <Node name="MODULE">
+      <Parameter name="name">DMBathymetry</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="lightsOn">False</Parameter>
+      <Parameter name="IsDeployed">False</Parameter>
+      <Parameter name="isLocked">False</Parameter>
+      <Parameter name="experimentNumber">0</Parameter>
+      <Parameter name="experimentsReturned">0</Parameter>
+      <Parameter name="Deployed">False</Parameter>
+      <Parameter name="Inoperable">False</Parameter>
+      <Parameter name="cooldownToGo">0</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="toggleLights">
+          <Parameter name="actionGroup">Light</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="LightOnAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="LightOffAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="deployAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="active">False</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="retractAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="active">False</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="toggleAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="DeployAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="ResetAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="active">False</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleKISItem</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="staticAttached">False</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS" />
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+  </Node>
+  <Node name="PART">
+    <Parameter name="name">dmscope</Parameter>
+    <Parameter name="cid">4288809512</Parameter>
+    <Parameter name="uid">2927141493</Parameter>
+    <Parameter name="mid">32952735</Parameter>
+    <Parameter name="persistentId">3079376502</Parameter>
+    <Parameter name="launchID">4</Parameter>
+    <Parameter name="parent">0</Parameter>
+    <Parameter name="position">-0.80527722835540771,0.28494644165039063,0.80527704954147339</Parameter>
+    <Parameter name="rotation">0.260339707,0.280481398,0.62851572,0.677142084</Parameter>
+    <Parameter name="mirror">1,1,1</Parameter>
+    <Parameter name="symMethod">Radial</Parameter>
+    <Parameter name="istg">0</Parameter>
+    <Parameter name="resPri">0</Parameter>
+    <Parameter name="dstg">1</Parameter>
+    <Parameter name="sqor">-1</Parameter>
+    <Parameter name="sepI">0</Parameter>
+    <Parameter name="sidx">-1</Parameter>
+    <Parameter name="attm">1</Parameter>
+    <Parameter name="srfN">srfAttach, 0</Parameter>
+    <Parameter name="attN">bottom, -1</Parameter>
+    <Parameter name="mass">0.0299999993</Parameter>
+    <Parameter name="shielded">False</Parameter>
+    <Parameter name="temp">257.98067462165818</Parameter>
+    <Parameter name="tempExt">258.25860872611702</Parameter>
+    <Parameter name="tempExtUnexp">258.25842010740763</Parameter>
+    <Parameter name="expt">0.5</Parameter>
+    <Parameter name="state">1</Parameter>
+    <Parameter name="PreFailState">0</Parameter>
+    <Parameter name="attached">True</Parameter>
+    <Parameter name="autostrutMode">Off</Parameter>
+    <Parameter name="rigidAttachment">False</Parameter>
+    <Parameter name="flag">Squad/Flags/default</Parameter>
+    <Parameter name="rTrf">dmscope</Parameter>
+    <Parameter name="modCost">0</Parameter>
+    <Node name="EVENTS" />
+    <Node name="ACTIONS" />
+    <Node name="PARTDATA" />
+    <Node name="MODULE">
+      <Parameter name="name">ModuleKerbNetAccess</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="OpenKerbNetAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">DMModuleScienceAnimate</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="IsDeployed">True</Parameter>
+      <Parameter name="isLocked">False</Parameter>
+      <Parameter name="experimentNumber">0</Parameter>
+      <Parameter name="experimentsReturned">6</Parameter>
+      <Parameter name="Deployed">False</Parameter>
+      <Parameter name="Inoperable">False</Parameter>
+      <Parameter name="cooldownToGo">0</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="deployAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="active">False</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="retractAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="active">False</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="toggleAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="DeployAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="ResetAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="active">False</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleKISItem</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="staticAttached">False</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS" />
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+  </Node>
+  <Node name="PART">
+    <Parameter name="name">dmmagBoom</Parameter>
+    <Parameter name="cid">4288803528</Parameter>
+    <Parameter name="uid">2288214221</Parameter>
+    <Parameter name="mid">32952735</Parameter>
+    <Parameter name="persistentId">217419441</Parameter>
+    <Parameter name="launchID">4</Parameter>
+    <Parameter name="parent">0</Parameter>
+    <Parameter name="position">0.72695088386535645,0.26326370239257813,0.72695076465606689</Parameter>
+    <Parameter name="rotation">0.632899702,0.27878499,-0.262155682,0.67304635</Parameter>
+    <Parameter name="mirror">1,1,1</Parameter>
+    <Parameter name="symMethod">Radial</Parameter>
+    <Parameter name="istg">0</Parameter>
+    <Parameter name="resPri">0</Parameter>
+    <Parameter name="dstg">1</Parameter>
+    <Parameter name="sqor">-1</Parameter>
+    <Parameter name="sepI">0</Parameter>
+    <Parameter name="sidx">-1</Parameter>
+    <Parameter name="attm">1</Parameter>
+    <Parameter name="srfN">srfAttach, 0</Parameter>
+    <Parameter name="attN">bottom, -1</Parameter>
+    <Parameter name="mass">0.0149999997</Parameter>
+    <Parameter name="shielded">False</Parameter>
+    <Parameter name="temp">257.97711881824921</Parameter>
+    <Parameter name="tempExt">258.26255005307326</Parameter>
+    <Parameter name="tempExtUnexp">258.26234152002502</Parameter>
+    <Parameter name="expt">0.5</Parameter>
+    <Parameter name="state">1</Parameter>
+    <Parameter name="PreFailState">0</Parameter>
+    <Parameter name="attached">True</Parameter>
+    <Parameter name="autostrutMode">Off</Parameter>
+    <Parameter name="rigidAttachment">False</Parameter>
+    <Parameter name="flag">Squad/Flags/default</Parameter>
+    <Parameter name="rTrf">dmmagBoom</Parameter>
+    <Parameter name="modCost">0</Parameter>
+    <Node name="EVENTS" />
+    <Node name="ACTIONS" />
+    <Node name="PARTDATA" />
+    <Node name="MODULE">
+      <Parameter name="name">ModuleResourceScanner</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS" />
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">DMModuleScienceAnimate</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="IsDeployed">False</Parameter>
+      <Parameter name="isLocked">False</Parameter>
+      <Parameter name="experimentNumber">0</Parameter>
+      <Parameter name="experimentsReturned">4</Parameter>
+      <Parameter name="Deployed">False</Parameter>
+      <Parameter name="Inoperable">False</Parameter>
+      <Parameter name="cooldownToGo">0</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="deployAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="active">False</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="retractAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="active">False</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="toggleAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="DeployAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="ResetAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="active">False</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">DMMagBoomModule</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS" />
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleKISItem</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="staticAttached">False</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS" />
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleSCANresourceScanner</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="scanning">False</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="startResourceScanAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="stopResourceScanAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="toggleResourceScanAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="startScanAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="active">False</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="stopScanAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="active">False</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="toggleScanAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="active">False</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">SCANresourceDisplay</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS" />
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+  </Node>
+  <Node name="PART">
+    <Parameter name="name">GooExperiment</Parameter>
+    <Parameter name="cid">4288796624</Parameter>
+    <Parameter name="uid">2973004945</Parameter>
+    <Parameter name="mid">32952735</Parameter>
+    <Parameter name="persistentId">2688516926</Parameter>
+    <Parameter name="launchID">4</Parameter>
+    <Parameter name="parent">0</Parameter>
+    <Parameter name="position">0.55012810230255127,0.25580978393554688,-0.55012810230255127</Parameter>
+    <Parameter name="rotation">-0.0330709033,0.382438213,-0.0136984196,-0.923287451</Parameter>
+    <Parameter name="mirror">1,1,1</Parameter>
+    <Parameter name="symMethod">Radial</Parameter>
+    <Parameter name="istg">0</Parameter>
+    <Parameter name="resPri">0</Parameter>
+    <Parameter name="dstg">1</Parameter>
+    <Parameter name="sqor">-1</Parameter>
+    <Parameter name="sepI">0</Parameter>
+    <Parameter name="sidx">-1</Parameter>
+    <Parameter name="attm">1</Parameter>
+    <Parameter name="srfN">srfAttach, 0</Parameter>
+    <Parameter name="mass">0.0500000007</Parameter>
+    <Parameter name="shielded">False</Parameter>
+    <Parameter name="temp">258.01822544899511</Parameter>
+    <Parameter name="tempExt">258.33635251301973</Parameter>
+    <Parameter name="tempExtUnexp">258.33621225052394</Parameter>
+    <Parameter name="expt">0.5</Parameter>
+    <Parameter name="state">1</Parameter>
+    <Parameter name="PreFailState">0</Parameter>
+    <Parameter name="attached">True</Parameter>
+    <Parameter name="autostrutMode">Off</Parameter>
+    <Parameter name="rigidAttachment">False</Parameter>
+    <Parameter name="flag">Squad/Flags/default</Parameter>
+    <Parameter name="rTrf">GooExperiment</Parameter>
+    <Parameter name="modCost">0</Parameter>
+    <Node name="EVENTS" />
+    <Node name="ACTIONS" />
+    <Node name="PARTDATA" />
+    <Node name="MODULE">
+      <Parameter name="name">ModuleAnimateGeneric</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="aniState">LOCKED</Parameter>
+      <Parameter name="animSwitch">False</Parameter>
+      <Parameter name="animTime">0.994234681</Parameter>
+      <Parameter name="animSpeed">0</Parameter>
+      <Parameter name="deployPercent">100</Parameter>
+      <Parameter name="animationIsDisabled">False</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="ToggleAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleScienceExperiment</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="Deployed">True</Parameter>
+      <Parameter name="Inoperable">True</Parameter>
+      <Parameter name="cooldownToGo">0</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="DeployAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="ResetAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="active">False</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+  </Node>
+  <Node name="PART">
+    <Parameter name="name">sensorBarometer</Parameter>
+    <Parameter name="cid">4288793808</Parameter>
+    <Parameter name="uid">3178034838</Parameter>
+    <Parameter name="mid">32952735</Parameter>
+    <Parameter name="persistentId">2352437456</Parameter>
+    <Parameter name="launchID">4</Parameter>
+    <Parameter name="parent">0</Parameter>
+    <Parameter name="position">-0.61252176761627197,0.28076934814453125,-0.6125217080116272</Parameter>
+    <Parameter name="rotation">-0.0429319888,-0.382270038,0.0177830122,-0.922881484</Parameter>
+    <Parameter name="mirror">1,1,1</Parameter>
+    <Parameter name="symMethod">Radial</Parameter>
+    <Parameter name="istg">0</Parameter>
+    <Parameter name="resPri">0</Parameter>
+    <Parameter name="dstg">1</Parameter>
+    <Parameter name="sqor">-1</Parameter>
+    <Parameter name="sepI">0</Parameter>
+    <Parameter name="sidx">-1</Parameter>
+    <Parameter name="attm">1</Parameter>
+    <Parameter name="srfN">srfAttach, 0</Parameter>
+    <Parameter name="mass">0.00499999989</Parameter>
+    <Parameter name="shielded">False</Parameter>
+    <Parameter name="temp">258.01539742497442</Parameter>
+    <Parameter name="tempExt">258.33118907746456</Parameter>
+    <Parameter name="tempExtUnexp">258.33102634688078</Parameter>
+    <Parameter name="expt">0.5</Parameter>
+    <Parameter name="state">1</Parameter>
+    <Parameter name="PreFailState">0</Parameter>
+    <Parameter name="attached">True</Parameter>
+    <Parameter name="autostrutMode">Off</Parameter>
+    <Parameter name="rigidAttachment">False</Parameter>
+    <Parameter name="flag">Squad/Flags/default</Parameter>
+    <Parameter name="rTrf">sensorBarometer</Parameter>
+    <Parameter name="modCost">0</Parameter>
+    <Node name="EVENTS" />
+    <Node name="ACTIONS" />
+    <Node name="PARTDATA" />
+    <Node name="MODULE">
+      <Parameter name="name">ModuleEnviroSensor</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="sensorActive">False</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="ToggleAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleScienceExperiment</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="Deployed">False</Parameter>
+      <Parameter name="Inoperable">False</Parameter>
+      <Parameter name="cooldownToGo">0</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="DeployAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="ResetAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+  </Node>
+  <Node name="PART">
+    <Parameter name="name">sensorThermometer</Parameter>
+    <Parameter name="cid">4288780918</Parameter>
+    <Parameter name="uid">4113105980</Parameter>
+    <Parameter name="mid">32952735</Parameter>
+    <Parameter name="persistentId">2820057014</Parameter>
+    <Parameter name="launchID">4</Parameter>
+    <Parameter name="parent">0</Parameter>
+    <Parameter name="position">-0.7480352520942688,0.30408859252929688,-0.43187844753265381</Parameter>
+    <Parameter name="rotation">-0.0519028604,-0.499101192,0.0299661271,-0.864468753</Parameter>
+    <Parameter name="mirror">1,1,1</Parameter>
+    <Parameter name="symMethod">Radial</Parameter>
+    <Parameter name="istg">0</Parameter>
+    <Parameter name="resPri">0</Parameter>
+    <Parameter name="dstg">1</Parameter>
+    <Parameter name="sqor">-1</Parameter>
+    <Parameter name="sepI">0</Parameter>
+    <Parameter name="sidx">-1</Parameter>
+    <Parameter name="attm">1</Parameter>
+    <Parameter name="srfN">srfAttach, 0</Parameter>
+    <Parameter name="mass">0.00499999989</Parameter>
+    <Parameter name="shielded">False</Parameter>
+    <Parameter name="temp">257.95133153934472</Parameter>
+    <Parameter name="tempExt">258.29973434276127</Parameter>
+    <Parameter name="tempExtUnexp">258.29955104905667</Parameter>
+    <Parameter name="expt">0.5</Parameter>
+    <Parameter name="state">1</Parameter>
+    <Parameter name="PreFailState">0</Parameter>
+    <Parameter name="attached">True</Parameter>
+    <Parameter name="autostrutMode">Off</Parameter>
+    <Parameter name="rigidAttachment">False</Parameter>
+    <Parameter name="flag">Squad/Flags/default</Parameter>
+    <Parameter name="rTrf">sensorThermometer</Parameter>
+    <Parameter name="modCost">0</Parameter>
+    <Node name="EVENTS" />
+    <Node name="ACTIONS" />
+    <Node name="PARTDATA" />
+    <Node name="MODULE">
+      <Parameter name="name">ModuleEnviroSensor</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="sensorActive">False</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="ToggleAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleScienceExperiment</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="Deployed">False</Parameter>
+      <Parameter name="Inoperable">False</Parameter>
+      <Parameter name="cooldownToGo">0</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="DeployAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="ResetAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+  </Node>
+  <Node name="PART">
+    <Parameter name="name">GooExperiment</Parameter>
+    <Parameter name="cid">4288776902</Parameter>
+    <Parameter name="uid">1533103778</Parameter>
+    <Parameter name="mid">32952735</Parameter>
+    <Parameter name="persistentId">1875887946</Parameter>
+    <Parameter name="launchID">4</Parameter>
+    <Parameter name="parent">0</Parameter>
+    <Parameter name="position">-0.38708093762397766,0.29523468017578125,-0.67044371366500854</Parameter>
+    <Parameter name="rotation">-0.0590789132,-0.258334547,0.0158301517,-0.964117408</Parameter>
+    <Parameter name="mirror">1,1,1</Parameter>
+    <Parameter name="symMethod">Radial</Parameter>
+    <Parameter name="istg">0</Parameter>
+    <Parameter name="resPri">0</Parameter>
+    <Parameter name="dstg">1</Parameter>
+    <Parameter name="sqor">-1</Parameter>
+    <Parameter name="sepI">0</Parameter>
+    <Parameter name="sidx">-1</Parameter>
+    <Parameter name="attm">1</Parameter>
+    <Parameter name="srfN">srfAttach, 0</Parameter>
+    <Parameter name="mass">0.0500000007</Parameter>
+    <Parameter name="shielded">False</Parameter>
+    <Parameter name="temp">258.01822479794333</Parameter>
+    <Parameter name="tempExt">258.33635212347582</Parameter>
+    <Parameter name="tempExtUnexp">258.33621186076948</Parameter>
+    <Parameter name="expt">0.5</Parameter>
+    <Parameter name="state">1</Parameter>
+    <Parameter name="PreFailState">0</Parameter>
+    <Parameter name="attached">True</Parameter>
+    <Parameter name="autostrutMode">Off</Parameter>
+    <Parameter name="rigidAttachment">False</Parameter>
+    <Parameter name="flag">Squad/Flags/default</Parameter>
+    <Parameter name="rTrf">GooExperiment</Parameter>
+    <Parameter name="modCost">0</Parameter>
+    <Node name="EVENTS" />
+    <Node name="ACTIONS" />
+    <Node name="PARTDATA" />
+    <Node name="MODULE">
+      <Parameter name="name">ModuleAnimateGeneric</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="aniState">LOCKED</Parameter>
+      <Parameter name="animSwitch">False</Parameter>
+      <Parameter name="animTime">0.994377851</Parameter>
+      <Parameter name="animSpeed">0</Parameter>
+      <Parameter name="deployPercent">100</Parameter>
+      <Parameter name="animationIsDisabled">False</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="ToggleAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleScienceExperiment</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="Deployed">True</Parameter>
+      <Parameter name="Inoperable">True</Parameter>
+      <Parameter name="cooldownToGo">0</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="DeployAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="ResetAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="active">False</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+  </Node>
+  <Node name="PART">
+    <Parameter name="name">ScienceBox</Parameter>
+    <Parameter name="cid">4288513698</Parameter>
+    <Parameter name="uid">36416697</Parameter>
+    <Parameter name="mid">32952735</Parameter>
+    <Parameter name="persistentId">2217195959</Parameter>
+    <Parameter name="launchID">4</Parameter>
+    <Parameter name="parent">0</Parameter>
+    <Parameter name="position">0,1.4250030517578125,0</Parameter>
+    <Parameter name="rotation">0,0,0,1</Parameter>
+    <Parameter name="mirror">1,1,1</Parameter>
+    <Parameter name="symMethod">Radial</Parameter>
+    <Parameter name="istg">0</Parameter>
+    <Parameter name="resPri">0</Parameter>
+    <Parameter name="dstg">1</Parameter>
+    <Parameter name="sqor">-1</Parameter>
+    <Parameter name="sepI">0</Parameter>
+    <Parameter name="sidx">-1</Parameter>
+    <Parameter name="attm">0</Parameter>
+    <Parameter name="srfN">srfAttach, -1</Parameter>
+    <Parameter name="attN">top, 9</Parameter>
+    <Parameter name="attN">bottom, 0</Parameter>
+    <Parameter name="mass">0.0500000007</Parameter>
+    <Parameter name="shielded">False</Parameter>
+    <Parameter name="temp">257.91370600914797</Parameter>
+    <Parameter name="tempExt">258.29794892584073</Parameter>
+    <Parameter name="tempExtUnexp">258.29771963813278</Parameter>
+    <Parameter name="expt">0.5</Parameter>
+    <Parameter name="state">1</Parameter>
+    <Parameter name="PreFailState">0</Parameter>
+    <Parameter name="attached">True</Parameter>
+    <Parameter name="autostrutMode">Off</Parameter>
+    <Parameter name="rigidAttachment">False</Parameter>
+    <Parameter name="flag">Squad/Flags/default</Parameter>
+    <Parameter name="rTrf">ScienceBox</Parameter>
+    <Parameter name="modCost">0</Parameter>
+    <Node name="EVENTS" />
+    <Node name="ACTIONS" />
+    <Node name="PARTDATA" />
+    <Node name="MODULE">
+      <Parameter name="name">ModuleConductionMultiplier</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS" />
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleScienceContainer</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="CollectAllAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">5</Parameter>
+        <Parameter name="subjectID">crewReport@KerbinSrfLandedGrasslands</Parameter>
+        <Parameter name="xmit">1</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">Crewbericht von Kerbins Grasland</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">5</Parameter>
+        <Parameter name="subjectID">magScan@KerbinSrfLandedGrasslands</Parameter>
+        <Parameter name="xmit">1</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">Magnetometer Scan von Kerbins Grasland</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">12</Parameter>
+        <Parameter name="subjectID">barometerScan@KerbinSrfLandedGrasslands</Parameter>
+        <Parameter name="xmit">0.5</Parameter>
+        <Parameter name="xmitBonus">1.3999958</Parameter>
+        <Parameter name="title">Atmosphärendruck-Scan von Kerbins Grasland</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">8</Parameter>
+        <Parameter name="subjectID">temperatureScan@KerbinSrfLandedGrasslands</Parameter>
+        <Parameter name="xmit">0.5</Parameter>
+        <Parameter name="xmitBonus">1.3999958</Parameter>
+        <Parameter name="title">Temperaturscan von Kerbins Grasland</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">10</Parameter>
+        <Parameter name="subjectID">mysteryGoo@KerbinSrfLandedGrasslands</Parameter>
+        <Parameter name="xmit">0.300000012</Parameter>
+        <Parameter name="xmitBonus">1.3999958</Parameter>
+        <Parameter name="title">Mysteriöser Schleim™-Beobachtung von Kerbins Grasland</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">5</Parameter>
+        <Parameter name="subjectID">crewReport@MunInSpaceHigh</Parameter>
+        <Parameter name="xmit">1</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">Crewbericht im Weltraum hoch über Mun</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">5</Parameter>
+        <Parameter name="subjectID">crewReport@KerbinSrfLandedLaunchPad</Parameter>
+        <Parameter name="xmit">1</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">Crewbericht von Startrampe</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">5</Parameter>
+        <Parameter name="subjectID">magScan@KerbinSrfLandedLaunchPad</Parameter>
+        <Parameter name="xmit">1</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">Magnetometer Scan von Startrampe</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">10</Parameter>
+        <Parameter name="subjectID">mysteryGoo@KerbinSrfLandedLaunchPad</Parameter>
+        <Parameter name="xmit">0.300000012</Parameter>
+        <Parameter name="xmitBonus">1.39999998</Parameter>
+        <Parameter name="title">Mysteriöser Schleim™-Beobachtung von Startrampe</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">12</Parameter>
+        <Parameter name="subjectID">barometerScan@KerbinSrfLandedLaunchPad</Parameter>
+        <Parameter name="xmit">0.5</Parameter>
+        <Parameter name="xmitBonus">1.39999998</Parameter>
+        <Parameter name="title">Atmosphärendruck-Scan von Startrampe</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">8</Parameter>
+        <Parameter name="subjectID">temperatureScan@KerbinSrfLandedLaunchPad</Parameter>
+        <Parameter name="xmit">0.5</Parameter>
+        <Parameter name="xmitBonus">1.39999998</Parameter>
+        <Parameter name="title">Temperaturscan von Startrampe</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">5</Parameter>
+        <Parameter name="subjectID">crewReport@KerbinFlyingHigh</Parameter>
+        <Parameter name="xmit">0</Parameter>
+        <Parameter name="xmitBonus">0</Parameter>
+        <Parameter name="title">Crewbericht aus der oberen Atmosphäre von Kerbin</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">12</Parameter>
+        <Parameter name="subjectID">barometerScan@KerbinFlyingHigh</Parameter>
+        <Parameter name="xmit">0.5</Parameter>
+        <Parameter name="xmitBonus">1.39999998</Parameter>
+        <Parameter name="title">Atmosphärendruck-Scan aus der oberen Atmosphäre von Kerbin</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">8</Parameter>
+        <Parameter name="subjectID">temperatureScan@KerbinFlyingHigh</Parameter>
+        <Parameter name="xmit">0.5</Parameter>
+        <Parameter name="xmitBonus">1.39999998</Parameter>
+        <Parameter name="title">Temperaturscan aus der oberen Atmosphäre von Kerbin</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">8</Parameter>
+        <Parameter name="subjectID">evaReport@KerbinFlyingHigh</Parameter>
+        <Parameter name="xmit">1</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">EVA-Bericht aus der oberen Atmosphäre von Kerbin</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">5</Parameter>
+        <Parameter name="subjectID">crewReport@KerbinInSpaceLow</Parameter>
+        <Parameter name="xmit">0</Parameter>
+        <Parameter name="xmitBonus">0</Parameter>
+        <Parameter name="title">Crewbericht im Weltraum in der Nähe von Kerbin</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">18</Parameter>
+        <Parameter name="subjectID">scopeScan@KerbinInSpaceLowWater</Parameter>
+        <Parameter name="xmit">1</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">Orbital Telescope Observations aus dem Weltraum direkt über Kerbins Wasser</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">8</Parameter>
+        <Parameter name="subjectID">evaReport@KerbinInSpaceLowWater</Parameter>
+        <Parameter name="xmit">1</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">EVA-Bericht aus dem Weltraum direkt über Kerbins Wasser</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">5</Parameter>
+        <Parameter name="subjectID">crewReport@KerbinInSpaceHigh</Parameter>
+        <Parameter name="xmit">1</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">Crewbericht im Weltraum hoch über Kerbin</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">18</Parameter>
+        <Parameter name="subjectID">scopeScan@KerbinInSpaceLowGrasslands</Parameter>
+        <Parameter name="xmit">1</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">Orbital Telescope Observations aus dem Weltraum direkt über Kerbins Grasland</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">5</Parameter>
+        <Parameter name="subjectID">magScan@KerbinInSpaceHigh</Parameter>
+        <Parameter name="xmit">1</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">Magnetometer Scan im Weltraum hoch über Kerbin</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">12</Parameter>
+        <Parameter name="subjectID">barometerScan@KerbinInSpaceHigh</Parameter>
+        <Parameter name="xmit">0.5</Parameter>
+        <Parameter name="xmitBonus">1.39999664</Parameter>
+        <Parameter name="title">Atmosphärendruck-Scan im Weltraum hoch über Kerbin</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">8</Parameter>
+        <Parameter name="subjectID">temperatureScan@KerbinInSpaceHigh</Parameter>
+        <Parameter name="xmit">0.5</Parameter>
+        <Parameter name="xmitBonus">1.39999664</Parameter>
+        <Parameter name="title">Temperaturscan im Weltraum hoch über Kerbin</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">10</Parameter>
+        <Parameter name="subjectID">mysteryGoo@KerbinInSpaceHigh</Parameter>
+        <Parameter name="xmit">0.300000012</Parameter>
+        <Parameter name="xmitBonus">1.39999664</Parameter>
+        <Parameter name="title">Mysteriöser Schleim™-Beobachtung im Weltraum hoch über Kerbin</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">8</Parameter>
+        <Parameter name="subjectID">evaReport@KerbinInSpaceLowGrasslands</Parameter>
+        <Parameter name="xmit">1</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">EVA-Bericht aus dem Weltraum direkt über Kerbins Grasland</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">8</Parameter>
+        <Parameter name="subjectID">evaReport@KerbinInSpaceHigh</Parameter>
+        <Parameter name="xmit">1</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">EVA-Bericht im Weltraum hoch über Kerbin</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">18</Parameter>
+        <Parameter name="subjectID">scopeScan@KerbinInSpaceHigh</Parameter>
+        <Parameter name="xmit">1</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">Orbital Telescope Observations im Weltraum hoch über Kerbin</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">18</Parameter>
+        <Parameter name="subjectID">scopeScan@MunInSpaceHigh</Parameter>
+        <Parameter name="xmit">1</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">Orbital Telescope Observations im Weltraum hoch über Mun</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">5</Parameter>
+        <Parameter name="subjectID">magScan@MunInSpaceHigh</Parameter>
+        <Parameter name="xmit">1</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">Magnetometer Scan im Weltraum hoch über Mun</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">10</Parameter>
+        <Parameter name="subjectID">mysteryGoo@MunInSpaceHigh</Parameter>
+        <Parameter name="xmit">0.300000012</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">Mysteriöser Schleim™-Beobachtung im Weltraum hoch über Mun</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">12</Parameter>
+        <Parameter name="subjectID">barometerScan@MunInSpaceHigh</Parameter>
+        <Parameter name="xmit">0.5</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">Atmosphärendruck-Scan im Weltraum hoch über Mun</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">8</Parameter>
+        <Parameter name="subjectID">temperatureScan@MunInSpaceHigh</Parameter>
+        <Parameter name="xmit">0.5</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">Temperaturscan im Weltraum hoch über Mun</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">8</Parameter>
+        <Parameter name="subjectID">evaReport@MunInSpaceHigh</Parameter>
+        <Parameter name="xmit">1</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">EVA-Bericht im Weltraum hoch über Mun</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">18</Parameter>
+        <Parameter name="subjectID">scopeScan@KerbinInSpaceLowMountains</Parameter>
+        <Parameter name="xmit">1</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">Orbital Telescope Observations aus dem Weltraum direkt über Kerbins Berge</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">8</Parameter>
+        <Parameter name="subjectID">evaReport@KerbinInSpaceLowHighlands</Parameter>
+        <Parameter name="xmit">1</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">EVA-Bericht aus dem Weltraum direkt über Kerbins Hochland</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">8</Parameter>
+        <Parameter name="subjectID">evaReport@KerbinInSpaceLowMountains</Parameter>
+        <Parameter name="xmit">1</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">EVA-Bericht aus dem Weltraum direkt über Kerbins Berge</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">8</Parameter>
+        <Parameter name="subjectID">evaReport@KerbinInSpaceLowShores</Parameter>
+        <Parameter name="xmit">1</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">EVA-Bericht aus dem Weltraum direkt über Kerbins Küsten</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="ScienceData">
+        <Parameter name="data">18</Parameter>
+        <Parameter name="subjectID">scopeScan@KerbinInSpaceLowHighlands</Parameter>
+        <Parameter name="xmit">1</Parameter>
+        <Parameter name="xmitBonus">1</Parameter>
+        <Parameter name="title">Orbital Telescope Observations aus dem Weltraum direkt über Kerbins Hochland</Parameter>
+        <Parameter name="triggered">False</Parameter>
+        <Parameter name="container">36416697</Parameter>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleKISItemEvaTweaker</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="staticAttached">False</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS" />
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+  </Node>
+  <Node name="PART">
+    <Parameter name="name">sasModule</Parameter>
+    <Parameter name="cid">4288529482</Parameter>
+    <Parameter name="uid">1923225497</Parameter>
+    <Parameter name="mid">32952735</Parameter>
+    <Parameter name="persistentId">589515218</Parameter>
+    <Parameter name="launchID">4</Parameter>
+    <Parameter name="parent">8</Parameter>
+    <Parameter name="position">0,1.9161148071289063,0</Parameter>
+    <Parameter name="rotation">0,0,0,1</Parameter>
+    <Parameter name="mirror">1,1,1</Parameter>
+    <Parameter name="symMethod">Radial</Parameter>
+    <Parameter name="istg">0</Parameter>
+    <Parameter name="resPri">0</Parameter>
+    <Parameter name="dstg">1</Parameter>
+    <Parameter name="sqor">-1</Parameter>
+    <Parameter name="sepI">0</Parameter>
+    <Parameter name="sidx">-1</Parameter>
+    <Parameter name="attm">0</Parameter>
+    <Parameter name="srfN">, -1</Parameter>
+    <Parameter name="attN">bottom, 8</Parameter>
+    <Parameter name="attN">top, 10</Parameter>
+    <Parameter name="mass">0.0500000007</Parameter>
+    <Parameter name="shielded">False</Parameter>
+    <Parameter name="temp">257.94778482871334</Parameter>
+    <Parameter name="tempExt">258.31851381706457</Parameter>
+    <Parameter name="tempExtUnexp">258.31835113449682</Parameter>
+    <Parameter name="expt">0.5</Parameter>
+    <Parameter name="state">1</Parameter>
+    <Parameter name="PreFailState">0</Parameter>
+    <Parameter name="attached">True</Parameter>
+    <Parameter name="autostrutMode">Off</Parameter>
+    <Parameter name="rigidAttachment">False</Parameter>
+    <Parameter name="flag">Squad/Flags/default</Parameter>
+    <Parameter name="rTrf">sasModule</Parameter>
+    <Parameter name="modCost">0</Parameter>
+    <Node name="EVENTS" />
+    <Node name="ACTIONS" />
+    <Node name="PARTDATA" />
+    <Node name="MODULE">
+      <Parameter name="name">ModuleReactionWheel</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="actuatorModeCycle">0</Parameter>
+      <Parameter name="authorityLimiter">100</Parameter>
+      <Parameter name="stateString">Inaktiv</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Parameter name="WheelState">Active</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="CycleAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="Activate">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="Deactivate">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="Toggle">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+  </Node>
+  <Node name="PART">
+    <Parameter name="name">parachuteSingle</Parameter>
+    <Parameter name="cid">4292375774</Parameter>
+    <Parameter name="uid">249394541</Parameter>
+    <Parameter name="mid">32952735</Parameter>
+    <Parameter name="persistentId">2432915606</Parameter>
+    <Parameter name="launchID">4</Parameter>
+    <Parameter name="parent">9</Parameter>
+    <Parameter name="position">0,2.0223045349121094,0</Parameter>
+    <Parameter name="rotation">0,0,0,1</Parameter>
+    <Parameter name="mirror">1,1,1</Parameter>
+    <Parameter name="symMethod">Radial</Parameter>
+    <Parameter name="istg">0</Parameter>
+    <Parameter name="resPri">0</Parameter>
+    <Parameter name="dstg">0</Parameter>
+    <Parameter name="sqor">0</Parameter>
+    <Parameter name="sepI">0</Parameter>
+    <Parameter name="sidx">1</Parameter>
+    <Parameter name="attm">0</Parameter>
+    <Parameter name="srfN">srfAttach, -1</Parameter>
+    <Parameter name="attN">bottom, 9</Parameter>
+    <Parameter name="mass">0.100000001</Parameter>
+    <Parameter name="shielded">False</Parameter>
+    <Parameter name="temp">257.95448942114234</Parameter>
+    <Parameter name="tempExt">258.32353495270451</Parameter>
+    <Parameter name="tempExtUnexp">258.32341684874882</Parameter>
+    <Parameter name="expt">0.5</Parameter>
+    <Parameter name="state">1</Parameter>
+    <Parameter name="PreFailState">0</Parameter>
+    <Parameter name="attached">True</Parameter>
+    <Parameter name="autostrutMode">Off</Parameter>
+    <Parameter name="rigidAttachment">False</Parameter>
+    <Parameter name="flag">Squad/Flags/default</Parameter>
+    <Parameter name="rTrf">parachuteSingle</Parameter>
+    <Parameter name="modCost">0</Parameter>
+    <Node name="EVENTS" />
+    <Node name="ACTIONS" />
+    <Node name="PARTDATA" />
+    <Node name="MODULE">
+      <Parameter name="name">ModuleParachute</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="persistentState">CUT</Parameter>
+      <Parameter name="animTime">1</Parameter>
+      <Parameter name="minAirPressureToOpen">0.0399999991</Parameter>
+      <Parameter name="deployAltitude">700</Parameter>
+      <Parameter name="spreadAngle">7</Parameter>
+      <Parameter name="automateSafeDeploy">0</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS">
+        <Node name="DeployAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+        <Node name="CutAction">
+          <Parameter name="actionGroup">None</Parameter>
+          <Parameter name="wasActiveBeforePartWasAdjusted">False</Parameter>
+        </Node>
+      </Node>
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleTestSubject</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS" />
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleDragModifier</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS" />
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+    <Node name="MODULE">
+      <Parameter name="name">ModuleDragModifier</Parameter>
+      <Parameter name="isEnabled">True</Parameter>
+      <Parameter name="stagingEnabled">True</Parameter>
+      <Node name="EVENTS" />
+      <Node name="ACTIONS" />
+      <Node name="UPGRADESAPPLIED" />
+    </Node>
+  </Node>
+  <Node name="ACTIONGROUPS">
+    <Parameter name="Stage">False, 1027641.67331062</Parameter>
+    <Parameter name="Gear">False, 0</Parameter>
+    <Parameter name="Light">False, 1025008.67631804</Parameter>
+    <Parameter name="RCS">False, 0</Parameter>
+    <Parameter name="SAS">False, 576414.252812157</Parameter>
+    <Parameter name="Brakes">False, 0</Parameter>
+    <Parameter name="Abort">False, 0</Parameter>
+    <Parameter name="Custom01">False, 0</Parameter>
+    <Parameter name="Custom02">False, 0</Parameter>
+    <Parameter name="Custom03">False, 0</Parameter>
+    <Parameter name="Custom04">False, 0</Parameter>
+    <Parameter name="Custom05">False, 0</Parameter>
+    <Parameter name="Custom06">False, 0</Parameter>
+    <Parameter name="Custom07">False, 0</Parameter>
+    <Parameter name="Custom08">False, 0</Parameter>
+    <Parameter name="Custom09">False, 0</Parameter>
+    <Parameter name="Custom10">False, 0</Parameter>
+  </Node>
+  <Node name="DISCOVERY">
+    <Parameter name="state">-1</Parameter>
+    <Parameter name="lastObservedTime">0</Parameter>
+    <Parameter name="lifetime">Infinity</Parameter>
+    <Parameter name="refTime">Infinity</Parameter>
+    <Parameter name="size">2</Parameter>
+  </Node>
+  <Node name="FLIGHTPLAN" />
+  <Node name="CTRLSTATE">
+    <Parameter name="pitch">0</Parameter>
+    <Parameter name="yaw">0</Parameter>
+    <Parameter name="roll">0</Parameter>
+    <Parameter name="trimPitch">0</Parameter>
+    <Parameter name="trimYaw">0</Parameter>
+    <Parameter name="trimRoll">0</Parameter>
+    <Parameter name="mainThrottle">0</Parameter>
+  </Node>
+  <Node name="VESSELMODULES">
+    <Node name="FlightIntegrator" />
+    <Node name="BetterBurnTimeData" />
+    <Node name="RPMVesselComputer" />
+    <Node name="CommNetVessel">
+      <Parameter name="controlState">Kerbal</Parameter>
+      <Parameter name="canComm">False</Parameter>
+    </Node>
+    <Node name="ModuleStabilization" />
+  </Node>
+</LMPConfigNodeToXML>
